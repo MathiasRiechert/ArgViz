@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        
+              <meta charset="utf-8">
+        <title>Visualisierungsprototyp Kerndatensatz Forschung</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link href='js/compendiumCSS.css' rel='stylesheet' type='text/css'/>  
+           <link href='js/webixCSS.css' rel='stylesheet' type='text/css'/>  
+          <script src="js/webix.js" type="text/javascript" charset="utf-8"></script>
+        
+        
+    </head>
+    <body>
+          <div id="processcontainer" style="height:100vh;"></div>
+ <div class="tutorialbutton">Tutorial anzeigen</div>
+        <div class="surveybutton">Zurück zur Befragung</div>
+        <div class="helpoverlaycenter"> 
+            
+            <div class="helptextcenter"></div>
+            <div class="helpmenucenter helpmenu"></div>
+            <div class="helpbuttoncenter">Weiter</div>
+        </div>
+        <div class="helpoverlayright">  
+               
+            <div class="helptextright"></div>
+            <div class="helpmenuright helpmenu"></div>
+            <div class="helpbuttonright">Weiter</div>       
+        </div>
+        <div class="helpoverlayleft">
+  
+            <div class="helptextleft"></div>   
+            <div class="helpmenuleft helpmenu"></div>
+            <div class="helpbuttonleft">Weiter</div>   
+        </div> 
+      
+<script src="js/jquery-1.10.2.min.js"></script>
+    <script src='js/compendiumHelpFunctions.js' type='text/javascript'></script>
+   <script type="text/javascript">  
+  
+       function gup(name)
+            {
+                name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+                var regexS = "[\\?&]" + name + "=([^&#]*)";
+                var regex = new RegExp(regexS);
+                var results = regex.exec(window.location.href);
+                if (results == null)
+                    return null;
+                else
+                    return results[1];
+            }
+             sessionStorage.setItem('userID',gup('p'));
+              var treatment2 = sessionStorage.getItem('treatment2');
+            if (treatment2 == null) {
+                treatment2 = gup("treatment2");
+                sessionStorage.setItem('treatment2',treatment2);
+            
+            }
+    
+             
+            var tutorialmode = sessionStorage.getItem('tutorialmode');
+            if (tutorialmode == null) {
+                tutorialmode = gup("tutorialmode");
+            }
+            
+    
+    if ( sessionStorage.getItem('showsurveybutton')!=1)
+{
+  $(".tutorialbutton").hide();
+  $(".surveybutton").hide();
+  }
+  
+  
+   $(".surveybutton").on("click", function(d){ 
+     
+          var surveyUserId=sessionStorage.getItem('userID');
+       var surveyTreatment2=sessionStorage.getItem('treatment2');
+     
+ 
+         var tutorialendtime=sessionStorage.getItem('tutorialendtime');
+    
+            //compute prototype end time:
+            var endtime = +new Date();
+            var starttimenew=sessionStorage.getItem('starttime');
+            var tutorialendtimenew=sessionStorage.getItem('tutorialendtime');
+            var prototype_tutorial_time=Math.round((tutorialendtimenew-starttimenew)/1000);
+            var prototype_time=Math.round((endtime-tutorialendtimenew)/1000);
+    // window.location.replace("https://na1.se.voxco.com/A4Survey.SurveyEngine/?st=pOw6Pcq8eMBFp%2fCX%2fcR%2f8jJieIPcIpZ%2fGIx%2bQXIPvPE%3d&urlimport=1&questlist=treatment;prototype_time;prototype_tutorial_time&treatment=2&w="+surveypw+"&prototype_tutorial_time="+prototype_tutorial_time+"&prototype_time=" +prototype_time+ "&p=" + surveyUserId);  });            var linkURL = "";
+               if (sessionStorage.getItem("expertise")=="W") {
+                   linkURL="https://na1.se.voxco.com/A4Survey.SurveyEngine/?st=pOw6Pcq8eMByq96GIeqWxWZpumY3j4R9zzOoic0DTS8%3d";
+               }else
+               {
+                   linkURL="https://na1.se.voxco.com/A4Survey.SurveyEngine/?st=pOw6Pcq8eMBFp%2fCX%2fcR%2f8jJieIPcIpZ%2fGIx%2bQXIPvPE%3d";
+               }
+    
+            window.location.replace(linkURL+"&urlimport=1&questlist=treatment;treatment2;prototype_time;prototype_tutorial_time&treatment=2&treatment2="+surveyTreatment2+"&w=KDSFp99x&prototype_tutorial_time="+prototype_tutorial_time+"&prototype_time=" +prototype_time+ "&p=" + surveyUserId); 
+        });  
+  
+      if (tutorialmode==1)
+       {     
+          
+           advanceTutorial(0,false);  
+          
+             
+        }
+        else
+        { 
+            $(".helpoverlaycenter").hide();
+             $(".helpoverlayleft").hide();
+            $(".helpoverlayright").hide();
+        }
+        
+      
+            
+
+            var indexdict = [
+                {"id":1,
+                "Datum": "2013-10-14",
+                "URL":"protocols/2013-10-14-PGD-Protokoll-Sitzung1.htm",
+                "Bereiche":"Organisatorisches, Beschäftigte"},
+                {"id":2,
+                "Datum": "2014-01-28",
+                "URL":"protocols/2014-01-28-PGD-Protokoll-Sitzung2.htm",
+                "Bereiche":"Organisatorisches, Drittmittel, Nachwuchsförderung"},
+                {"id":3,
+                "Datum": "2014-03-28",
+                "URL":"protocols/2014-03-28-PGD-Protokoll-Sitzung3.htm",
+                "Bereiche":"Organisatorisches, Forschungspreise und Auszeichnungen, Patente, Publikationen"},
+                {"id":4,
+                "Datum": "2014-07-08",
+                "URL":"protocols/2014-07-08-PGD-Protokoll-Sitzung4.htm",
+                "Bereiche":"Organisatorisches, Nachwuchsförderung, Beschäftigte"},
+                {"id":5,
+                "Datum": "2014-08-26",
+                "URL":"protocols/2014-08-26-PGD-Protokoll-Sitzung5.htm",
+                "Bereiche":"Drittmittel"},
+                {"id":6,
+                "Datum": "2014-09-25",
+                "URL":"protocols/2014-09-25-PGD-Protokoll-Sitzung6.htm",
+                "Bereiche":"Forschungspreise und Auszeichnungen, Patente"},
+                {"id":7,
+                "Datum": "2014-10-16",
+                "URL":"protocols/2014-10-16-PGD-Protokoll-Sitzung7.htm",
+                "Bereiche":"Offene Punkte in allen Bereichen"}
+            ];
+            
+                webix.ui({
+                id: "protocollayout",
+                container: "processcontainer",
+                type: "line",          
+                cols: [
+                    {/*Col1: index*/
+                       template: "Col1",width:300, rows: [
+                            {view: "template", id: "protocol_menu"}
+                        ]
+                    },
+                    {view: "resizer"},
+                    /*Col2: content: */
+                    {template: "Col2", rows: [
+                           {view: "template", id: "protocol_content"}
+                            // , {template: ""} //filler
+                        ]
+
+                    }
+
+
+                ]
+            });
+           
+              $('[view_id="protocol_menu"]').children(0).attr("id", "protocol_menu"); 
+ $('[view_id="protocol_content"]').children(0).attr("id", "protocol_content"); 
+$('#protocol_menu').html(generateMenuFromVar(indexdict));//
+           $('#protocol_content').load("startcontent.html"); 
+          //  $('#compendium_menu').load("TOC.html");
+          //   $('#compendium_chart').load("Home_Window_101511691418914026506.html");
+
+     
+             
+            
+          
+
+           function generateMenuFromVar(indexdict)
+           {var returntext;
+               returntext="<table id='indextable'><tr ><th width='30%'>Datum</th><th width='10%'>Nr.</th><th width='60%'>Bereiche</th></tr>";
+               
+               indexdict.forEach(function(row) {
+                   returntext+="<tr onClick='loadContent("+row.id+")'><td>"+row.Datum + "</td><td>"+row.id+"</td><td>"+row.Bereiche+"</td></tr>";
+             
+                });
+               
+               return returntext + "</table>";
+           }
+           function loadContent(index) {
+               $('#protocol_content').load(indexdict[index-1].URL);
+              $('body, html, #protocol_content').scrollTop(0);
+           }
+           
+</script>
+        
+    </body>
+</html>

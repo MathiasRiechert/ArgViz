@@ -1,0 +1,156 @@
+/* 
+    Document   : pack
+    Created on : 17.08.2013, 11:23:19
+    Author     : Mathias
+    Description:
+        Stylesheet for the Collapsive Tree visualization mode
+*/
+
+
+
+.circlesEmpfohlen {
+background-color:#CCE680;
+fill: #CCE680;
+} 
+.circlesErweiterungsteil {
+    background-color:#FFCC66;
+fill: #FFCC66;
+} 
+.circlesNichtEmpfohlen {
+    background-color:#EB9999;
+fill: #EB9999;
+} 
+.circlesSchale {
+    background-color:#E9AEFF; 
+fill: #E9AEFF; //"#CC99FF";
+}
+.circlesNotClassed {
+    background-color:#E6E6E6;
+ fill:#E6E6E6;
+}
+
+.node--root{
+background-color:#FFF;
+ fill:#FFF;
+}
+.packArgumentText {
+    font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    stroke-width: 1.5px;
+    text-anchor: middle;
+    stroke: #FFF; 
+}
+
+.pack circle {
+
+     
+  fill-opacity: 0.7;
+  stroke: #000;
+  stroke-width: 0.2px;
+  
+}
+
+.alternative-text{
+  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-anchor: middle;
+   cursor: pointer;
+ 
+  
+}
+.alternative {
+
+  fill-opacity: 1;
+  stroke: #000;
+  stroke-width: 0.2px;
+   cursor: pointer;
+  
+}
+.alternative:hover {
+      stroke: #FFF;
+      stroke-width: 1.5px;
+}
+.argumentpro {
+  background-color:  #009900;//#CCE680;
+  fill: #009900;//#CCE680;
+  fill-opacity: 1;
+  stroke: #000;
+  stroke-width: 0.2px;
+   cursor: pointer;
+}
+  
+
+.argumentcon {
+    background-color: #cc0000;//#EB9999;
+  fill: #cc0000;//#EB9999;
+  fill-opacity: 1;
+  stroke: #000;
+  stroke-width: 0.2px;
+   cursor: pointer;
+  
+}
+
+
+.argumentpro:hover {
+      stroke: #FFF;
+      stroke-width: 1.5px;
+}
+.argumentcon:hover {
+      stroke: #FFF;
+      stroke-width: 1.5px;
+}
+
+
+.pack text {
+     font: 17px sans-serif;
+    
+}
+
+
+
+.leaf_pack circle {
+  fill: #FAFAFA;
+  fill-opacity: 1;
+}
+
+
+.node {
+  cursor: pointer;
+}
+
+.node:hover {
+  stroke: #FFF;
+  stroke-width: 1.5px;
+}
+
+
+.node--leaf {
+  
+}
+
+.label {
+  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-anchor: middle;
+ /* text-shadow: 0 0px 0 #fff, 1px 0 0 #fff, -0px 0 0 #fff, 0 -1px 0 #fff;*/
+}
+
+/*.label,
+.node--root,
+.node--leaf {
+  pointer-events: none;
+}*/
+
+  .label {
+  pointer-events: none;
+} 
+   
+   
+   
+   
+   
+   
+   
+ .panzoom-parent { border: 2px solid #333; }
+.panzoom-parent .panzoom { border: 2px dashed #666; }
+.buttons { margin: 40px 0 0; }
+
+
+

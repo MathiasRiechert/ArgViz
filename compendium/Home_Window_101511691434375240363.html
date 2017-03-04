@@ -1,0 +1,274 @@
+﻿<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Überblick</title>
+<style>
+td { font-family:Arial, Helvetica; font-size:8.0pt; font-weight:normal; }
+</style>
+<script Language="JavaScript1.2">
+<!--
+var highlightDiv = null;
+window.onload = function(){
+	var specificNodeID = unescape(parent.document.location.hash.substring(1));
+	scrollAndHighlight(specificNodeID);
+}
+
+var IE = 0; var IE5 = 0; var NS = 0; var GECKO = 0;
+var openpopups = new Array();
+if (document.all) {     // Internet Explorer Detected
+	OS = navigator.platform;
+	VER = new String(navigator.appVersion);
+	VER = VER.substr(VER.indexOf("MSIE")+5, VER.indexOf(" "));
+	if ((VER <= 5) && (OS == "Win32")) {
+		IE5 = true;
+	} else {
+		IE = true;
+	}
+}
+else if (document.layers) {   // Netscape Navigator Detected
+	NS = true;
+}
+else if (document.getElementById) { // Netscape 6 Detected
+	GECKO = true;
+}
+else {
+	alert("Unrecognized Browser Detected. Sorry, your browser is not compatible.");
+}
+
+function handleResize() {
+	location.reload();
+	return false;
+}
+
+if ((NS) && (navigator.platform == "MacPPC")) {
+	window.captureEvents(Event.RESIZE);
+	window.onresize = handleResize;
+}
+
+function scrollAndHighlight(specificNodeID) {
+	if (specificNodeID != null && specificNodeID != "") {
+		highlightDiv = document.getElementById(specificNodeID+'highlight');
+		if (highlightDiv) {
+			highlightDiv.style.visibility = 'visible';
+			x = highlightDiv.style.left;
+			y = highlightDiv.style.top;
+			yb = highlightDiv.style.height;
+			x = (x.substring(0, x.length-2))*1;
+			y = (y.substring(0, y.length-2))*1;
+			yb = (yb.substring(0, yb.length-2))*1;
+			y = y+yb;
+			window.scrollTo(x,y);
+			// This didn't work!
+			//node = highlightDiv = document.getElementById(specificNodeID);
+			//node.scrollIntoView(true);
+		}
+	}
+}
+
+function openNewWindow(url, name, features){
+	hideHints(1);
+	var popBox = window.open(url, name, features);
+	popBox.focus();
+return;
+}
+
+function loadFile(url, name) {
+	hideHints(1);
+	$('#compendium_chart').load(url);//window.location.href  =  url;
+return;
+}
+
+function openFile(url, name) {
+	hideHints(1);
+	var popBox = window.open(url, name);
+	popBox.focus();
+return;
+}
+
+function showHint(event, popupName) {
+	hideHints(1);
+	if (GECKO) {
+		document.getElementById(popupName).style.left = event.layerX+7 + document.body.scrollLeft;
+		document.getElementById(popupName).style.top = event.layerY-5 + document.body.scrollTop;
+		document.getElementById(popupName).style.background = "#FFFED9";
+		document.getElementById(popupName).style.visibility = "visible";
+		openpopups.push(popupName);
+	}
+	else if (NS) {
+		document.layers[popupName].moveTo(event.pageX+7 + document.body.scrollLeft, event.pageY-5 + document.body.scrollTop);
+		document.layers[popupName].bgColor = "#FFFED9";
+		document.layers[popupName].visibility = "show";
+		openpopups.push(popupName);
+	}
+	else if (IE || IE5) {
+		window.event.cancelBubble = true;
+		document.all[popupName].style.left = window.event.clientX+7 + document.body.scrollLeft;
+		document.all[popupName].style.top = window.event.clientY-5 + document.body.scrollTop;
+		document.all[popupName].style.visibility = "visible";
+		openpopups[openpopups.length] = popupName;
+	}
+	return false;
+}
+
+function hideHighlight() {
+	if (highlightDiv != null) {
+		highlightDiv.style.visibility = 'hidden';
+	}
+}
+
+function hideHints(fromBody) {
+	var popupname;
+	for (var i = 0; i < openpopups.length; i++) {
+		popupname = new String (openpopups[i]);
+		if ( IE || (GECKO && fromBody == 1)) {
+			document.getElementById(popupname).style.visibility = "hidden";
+		}
+		else if (NS) {
+			document.layers[popupname].visibility = "hide";
+		}
+		else if (IE5) {
+			document.all[popupname].style.visibility = "hidden";
+		}
+	}
+	openpopups = new Array();
+	return;
+}
+
+//-->
+</script>
+</head>
+
+<body onClick="hideHints(0); hideHighlight(); return false;"  style="margin:0px; padding: 0px;">
+<img Suppress=true src="images/101511691434375240363_map.jpg" width="381" height="649" hspace=0 vspace=0 border=0 usemap="#101511691434375240363_map">
+<map name="101511691434375240363_map">
+<area id="nid19216810191413454974643_101511691434375240363" shape="rect" coords="265,88,333,104" />
+<area shape="rect" coords="283,51,316,84" href="javascript:loadFile('Beschaeftigte_19216810191413454974643.html','19216810191413454974643')" onClick="javascript:loadFile('Beschaeftigte_19216810191413454974643.html','19216810191413454974643')" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454974643imagehint'); return false;"/>
+<area id="nid101511141417774815599_101511691434375240363" shape="rect" coords="275,633,324,649" />
+<area shape="rect" coords="284,596,317,629" href="javascript:loadFile('Budget_101511141417774815599.html','101511141417774815599')" onClick="javascript:loadFile('Budget_101511141417774815599.html','101511141417774815599')" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'101511141417774815599imagehint'); return false;"/>
+<area id="nid19216810191413454974627_101511691434375240363" shape="rect" coords="240,156,358,172" />
+<area shape="rect" coords="283,119,316,152" href="javascript:loadFile('Nachwuchsfoerderung_19216810191413454974627.html','19216810191413454974627')" onClick="javascript:loadFile('Nachwuchsfoerderung_19216810191413454974627.html','19216810191413454974627')" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454974627imagehint'); return false;"/>
+<area id="nid19216810191413454974674_101511691434375240363" shape="rect" coords="221,280,378,296" />
+<area shape="rect" coords="284,243,317,276" href="javascript:loadFile('Patente_und_Ausgruend_19216810191413454974674.html','19216810191413454974674')" onClick="javascript:loadFile('Patente_und_Ausgruend_19216810191413454974674.html','19216810191413454974674')" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454974674imagehint'); return false;"/>
+<area id="nid19216810191413454974487_101511691434375240363" shape="rect" coords="235,220,364,236" />
+<area shape="rect" coords="284,183,317,216" href="javascript:loadFile('Drittmittel_und_Fina_19216810191413454974487.html','19216810191413454974487')" onClick="javascript:loadFile('Drittmittel_und_Fina_19216810191413454974487.html','19216810191413454974487')" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454974487imagehint'); return false;"/>
+<area shape="rect" coords="91,49,98,63" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454974658tags'); return false;"/>
+<area id="nid19216810191413454974565_101511691434375240363" shape="rect" coords="262,339,337,355" />
+<area shape="rect" coords="284,302,317,335" href="javascript:loadFile('Publikationen_19216810191413454974565.html','19216810191413454974565')" onClick="javascript:loadFile('Publikationen_19216810191413454974565.html','19216810191413454974565')" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454974565imagehint'); return false;"/>
+<area id="nid19216810191413454974549_101511691434375240363" shape="rect" coords="235,479,363,511" />
+<area shape="rect" coords="283,442,316,475" href="javascript:loadFile('Forschungspreise_und_19216810191413454974549.html','19216810191413454974549')" onClick="javascript:loadFile('Forschungspreise_und_19216810191413454974549.html','19216810191413454974549')" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454974549imagehint'); return false;"/>
+<area id="nid101511691432817284939_101511691434375240363" shape="rect" coords="227,409,372,425" />
+<area shape="rect" coords="284,372,317,405" href="javascript:loadFile('Forschungsinfrastruk_101511691432817284939.html','101511691432817284939')" onClick="javascript:loadFile('Forschungsinfrastruk_101511691432817284939.html','101511691432817284939')" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'101511691432817284939imagehint'); return false;"/>
+<area id="nid101511141417776522789_101511691434375240363" shape="rect" coords="230,559,369,591" />
+<area shape="rect" coords="284,522,317,555" href="javascript:loadFile('Personen_ohne_Beschae_101511141417776522789.html','101511141417776522789')" onClick="javascript:loadFile('Personen_ohne_Beschae_101511141417776522789.html','101511141417776522789')" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'101511141417776522789imagehint'); return false;"/>
+</map></div>
+<div id="19216810191413454974643imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon to view map contents
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454974643_101511691434375240363highlight" style="position:absolute; z-index:15; visibility:hidden; left:263px; top:49px; width:73px; height:55px; border: 2px solid yellow"></div>
+<div id="101511141417774815599imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon to view map contents
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid101511141417774815599_101511691434375240363highlight" style="position:absolute; z-index:15; visibility:hidden; left:273px; top:594px; width:54px; height:55px; border: 2px solid yellow"></div>
+<div id="19216810191413454974627imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon to view map contents
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454974627_101511691434375240363highlight" style="position:absolute; z-index:15; visibility:hidden; left:238px; top:117px; width:123px; height:55px; border: 2px solid yellow"></div>
+<div id="19216810191413454974674imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon to view map contents
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454974674_101511691434375240363highlight" style="position:absolute; z-index:15; visibility:hidden; left:219px; top:241px; width:162px; height:55px; border: 2px solid yellow"></div>
+<div id="19216810191413454974487imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon to view map contents
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454974487_101511691434375240363highlight" style="position:absolute; z-index:15; visibility:hidden; left:233px; top:181px; width:134px; height:55px; border: 2px solid yellow"></div>
+
+<div id="nid19216810191413454974658_101511691434375240363highlight" style="position:absolute; z-index:15; visibility:hidden; left:43px; top:50px; width:146px; height:55px; border: 2px solid yellow"></div>
+<div id="19216810191413454974658tags" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">
+				Empfohlen
+			</td>
+		</tr>
+	</table>
+</div>
+<div id="19216810191413454974565imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon to view map contents
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454974565_101511691434375240363highlight" style="position:absolute; z-index:15; visibility:hidden; left:260px; top:300px; width:80px; height:55px; border: 2px solid yellow"></div>
+<div id="19216810191413454974549imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon to view map contents
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454974549_101511691434375240363highlight" style="position:absolute; z-index:15; visibility:hidden; left:233px; top:440px; width:133px; height:71px; border: 2px solid yellow"></div>
+<div id="101511691432817284939imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon to view map contents
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid101511691432817284939_101511691434375240363highlight" style="position:absolute; z-index:15; visibility:hidden; left:225px; top:370px; width:150px; height:55px; border: 2px solid yellow"></div>
+<div id="101511141417776522789imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon to view map contents
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid101511141417776522789_101511691434375240363highlight" style="position:absolute; z-index:15; visibility:hidden; left:228px; top:520px; width:144px; height:71px; border: 2px solid yellow"></div>
+</body></html>

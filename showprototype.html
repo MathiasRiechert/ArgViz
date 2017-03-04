@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Kerndatensatz Forschung</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href='css/general.css' rel='stylesheet' type='text/css'/>
+        <script src="js/libs/jquery/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="js/spin.js"></script>
+    </head>
+    <body id="a1">
+        <div id="spin"></div>
+        <script type="text/javascript">
+
+
+
+            var opts = {
+                lines: 40, // The number of lines to draw 
+                length: 1, // The length of each line
+                width: 3, // The line thickness
+                radius: 50, // The radius of the inner circle
+                rotate: 0, // The rotation offset
+                color: '#333', // #rgb or #rrggbb
+                speed: 1, // Rounds per second
+                trail: 50, // Afterglow percentage
+                shadow: false, // Whether to render a shadow
+                hwaccel: false, // Whether to use hardware acceleration
+                className: 'spinner', // The CSS class to assign to the spinner
+                zIndex: 2e9, // The z-index (defaults to 2000000000)
+                top: 'auto', // Top position relative to parent in px
+                left: 'auto' // Left position relative to parent in px
+            };
+
+
+            window.onload = function () {
+                var spinbox = document.getElementById('spin');
+                var spinner = new Spinner(opts).spin(spinbox); //shows the waiting animation
+
+
+                var surveyPassword = "KDSFp99x";
+                var surveyUserId = gup("x2y");
+                var expertise = gup("expertise");
+                var surveyTreatment =-1;
+                do  {
+                    surveyTreatment = Math.floor(Math.random() * 6)+2; //7 treatments total. ergibt 2-7 
+                    }
+                    while   (5==4);
+                var surveyTreatment2=-1;
+                do  {
+                    surveyTreatment2 = Math.floor(Math.random() * 6)+2; //7 treatments total. ergibt 2-7 
+                    }
+                    while   ( surveyTreatment2==surveyTreatment);
+                
+               // var surveyTreatment = 1;
+               // alert (surveyTreatment);
+               
+          
+                switch (surveyTreatment)
+                {
+                    case 1: //No treatment, just go back to the questionnaire
+                 
+                        break;
+                    case 2: //Treatment: Prototcol:
+window.location.href="http://www.forschungsinfo.de/kdsf-survey/argvis/protocols/anzeige.html?tutorialmode=1&treatment2="+surveyTreatment2+"&p=" + surveyUserId+"&expertise="+expertise; //prototype_time und treatment ergänzen nach Prototype!
+                        break;
+                    case 3: //Treatment: Process Diagram
+                        window.location.href="http://www.forschungsinfo.de/kdsf-survey/argvis/indexswiper.html?selectedslide=0&tutorialmode=1&treatment2="+surveyTreatment2+"&p=" + surveyUserId+"&expertise="+expertise; //prototype_time und treatment ergänzen nach Prototype!
+                        break;
+                    case 4: //Treatment: Compendium Web Map
+					window.location.href="http://www.forschungsinfo.de/kdsf-survey/argvis/compendium/compendium.html?tutorialmode=1&treatment2="+surveyTreatment2+"&p=" + surveyUserId+"&expertise="+expertise; //prototype_time und treatment ergänzen nach Prototype!
+					
+                        break;
+                    case 5: //Treatment: ArgVis: ColTree
+                        window.location.href="http://www.forschungsinfo.de/kdsf-survey/argvis/indexswiper.html?selectedslide=1&vismode=2&tutorialmode=1&treatment2="+surveyTreatment2+"&p=" + surveyUserId+"&expertise="+expertise; //prototype_time und treatment ergänzen nach Prototype!
+                        break;
+                    case 6: //Treatment: ArgVis: PackedCircles
+                        window.location.href="http://www.forschungsinfo.de/kdsf-survey/argvis/indexswiper.html?selectedslide=1&vismode=1&tutorialmode=1&hidelevel=1&treatment2="+surveyTreatment2+"&p=" + surveyUserId+"&expertise="+expertise; //prototype_time und treatment ergänzen nach Prototype!
+                        break;
+                    case 7: //Treatment: HTML-Table
+                        window.location.href="http://www.forschungsinfo.de/kdsf-survey/argvis/html-table/tbl.html?tutorialmode=1&treatment2="+surveyTreatment2+"&p=" + surveyUserId+"&expertise="+expertise; //prototype_time und 
+                        break;
+
+
+
+
+                }
+
+
+        //        var results=[0,0,0,0,0,0,0,0,0,0,0]
+        //      for (i=0;i<=17000000;i++)
+        //      {
+        //          randomint = Math.floor(Math.random() * 7)+1; //7 treatments total
+        //          results[randomint]=results[randomint]+1;
+        //        }
+        //      alert ("0: " + results[0] + "\n1: " + results[1] + "\n2: "+ results[2] + "\n3: " + results[3] + "\n4: "+ results[4] + "\n5: " + results[5] + "\n6: "+ results[6] + "\n7: " + results[7] + "\n8: "+ results[8] );
+
+                //modes: W-Wissenschaftler V-Verwaltungspersonal A-Akteur
+
+        //        var results=[0,0,0,0,0,0,0,0,0,0,0]
+        //      for (i=0;i<=17000000;i++)
+        //      {
+        //          randomint = Math.floor(Math.random() * 7)+1; //7 treatments total
+        //          results[randomint]=results[randomint]+1;
+        //        }
+        //      alert ("0: " + results[0] + "\n1: " + results[1] + "\n2: "+ results[2] + "\n3: " + results[3] + "\n4: "+ results[4] + "\n5: " + results[5] + "\n6: "+ results[6] + "\n7: " + results[7] + "\n8: "+ results[8] );
+                //generate identifier:
+                if (mode == "W" || mode == "V" || mode == "A" || mode =="X")
+                {
+                    window.location.replace("https://na1.se.voxco.com/A4Survey.SurveyEngine/?st=pOw6Pcq8eMBFp%2fCX%2fcR%2f8jJieIPcIpZ%2fGIx%2bQXIPvPE%3d&urlimport=1&questlist=expertise;treatment&expertise=" + mode + "&treatment=" + randomint + "&w=KDSFp99x");
+                }
+                else
+                {
+                }
+
+            }
+            function gup(name)
+            {
+                name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+                var regexS = "[\\?&]" + name + "=([^&#]*)";
+                var regex = new RegExp(regexS);
+                var results = regex.exec(window.location.href);
+                if (results == null)
+                    return null;
+                else
+                    return results[1];
+            }
+
+            function makeid(length)
+            {
+                var text = "";
+                var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
+                for (var i = 0; i < length; i++)
+                    text += possible.charAt(Math.floor(Math.random() * possible.length));
+
+                return text;
+            }
+        </script>
+
+    </body>
+</html>

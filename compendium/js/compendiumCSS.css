@@ -1,0 +1,14 @@
+
+#compendium_chart { overflow:scroll;
+}
+html, body {margin:0px;
+overflow:hidden;}
+
+area {cursor:pointer;}
+
+#hinweistext{
+    font-size:11px;
+    font-style:italic;
+}
+
+td {font-size:12px!important;}

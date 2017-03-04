@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>ArgViz Overview</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link href='https://fonts.googleapis.com/css?family=Exo:400,100' rel='stylesheet' type='text/css'>
+            <script src="js/libs/jquery/jquery-1.10.2.min.js"></script>
+        <style> 
+            
+            html, body {
+           position: fixed;
+    width: 100%;
+    height: 100%;
+              }
+            body {
+                background-color:black;
+            }
+            #bgprotocol {
+               background-image: url(overview/images/protocol.png); 
+            }
+              #bgprocess {
+               background-image: url(overview/images/process.png); 
+            }
+              #bgcompendium {
+               background-image: url(overview/images/compendium.png); 
+            }
+              #bgtree {
+               background-image: url(overview/images/tree.png); 
+            }
+              #bgtable {
+               background-image: url(overview/images/table.png); 
+            }
+              #bgcircles {
+               background-image: url(overview/images/circles.png); 
+            }
+            
+                #protocol:hover ~ #bgprotocol{
+                width:820px;
+                }
+                #process:hover ~ #bgprocess{
+                width:820px;
+                }
+                #compendium:hover ~ #bgcompendium{
+                width:820px;
+                }
+                #tree:hover ~ #bgtree{
+                width:820px;
+                }
+                #table:hover ~ #bgtable{
+                width:820px;
+                }
+                #circles:hover ~ #bgcircles{
+                width:820px;
+                }
+                
+                .topdiv:hover {
+                   opacity:0; 
+                }
+            
+            .paneldiv {
+                     -webkit-transition: width 1s;
+                transition: width 1s;
+                background:no-repeat center;
+            background-size:100%;
+            width:683px;height:90px;
+            left:55%;
+            -webkit-transform: translate(-50%, 0);
+            -moz-transform: translate(-50%, 0);
+             -ms-transform: translate(-50%, 0);
+            -o-transform: translate(-50%, 0);
+            position: absolute;
+           // border:1px solid red;
+          //  padding:20px;
+            z-index: 0;
+            }
+            
+            
+            .topdiv {
+                cursor:pointer;
+                -webkit-transition: width opacity 1s;
+                transition: width  opacity 1s;
+                z-index: 2;
+                background-color: black;
+                opacity:0.3;
+            width:683px;height:90px;
+        left:55%;
+            -webkit-transform: translate(-50%, 0);
+            -moz-transform: translate(-50%, 0);
+            -ms-transform: translate(-50%, 0);
+            -o-transform: translate(-50%, 0);
+            position: absolute;
+           // border:1px solid red;
+          //  padding:20px;
+            }
+          
+            #bracketdiv {
+                z-index: 3;
+                opacity:0.4;
+                 position: absolute;
+                 top:180px;
+                   -webkit-transform: translate(0, -52%);
+            -moz-transform: translate(0, -50%);
+            -ms-transform: translate(0, -50%);
+            -o-transform: translate(0, -50%);
+               left:85%; 
+               font-size: 310px;
+               font-weight:100;
+               color: white;
+               font-family: 'Exo', sans-serif;
+              // font-family: "Helvetica Narrow","Arial Narrow",Tahoma,Arial,Helvetica,sans-serif;
+            }
+          
+            #bracketdivtext {
+                z-index: 3;
+                opacity:1;
+                width:300px;
+                 position: absolute;
+                 top:180px;
+      
+               left:81%; 
+               text-align: center;
+               font-weight:300;
+               color: white;
+               font-family: 'Exo', sans-serif;
+              // font-family: "Helvetica Narrow","Arial Narrow",Tahoma,Arial,Helvetica,sans-serif;
+              -moz-transform: rotate(270deg);
+                -ms-transform: rotate(270deg);
+            -o-transform: rotate(270deg);
+            -webkit-transform: rotate(270deg);
+            }
+             #bracketdiv2 {
+                z-index: 3;
+                opacity:0.4;
+                 position: absolute;
+                 top:180px;
+                   -webkit-transform: translate(0, -52%);
+            -moz-transform: translate(0, -50%);
+            -ms-transform: translate(0, -50%);
+            -o-transform: translate(0, -50%);
+               left:86%; 
+               font-size: 310px;
+               font-weight:100;
+               color: white;
+               font-family: 'Exo', sans-serif;
+              // font-family: "Helvetica Narrow","Arial Narrow",Tahoma,Arial,Helvetica,sans-serif;
+            }
+          
+            #bracketdivtext2 {
+                z-index: 3;
+                opacity:1;
+                width:300px;
+                 position: absolute;
+                 top:180px;
+      
+               left:81%; 
+               text-align: center;
+               font-weight:300;
+               color: white;
+               font-family: 'Exo', sans-serif;
+              // font-family: "Helvetica Narrow","Arial Narrow",Tahoma,Arial,Helvetica,sans-serif;
+              -moz-transform: rotate(270deg);
+                -ms-transform: rotate(270deg);
+            -o-transform: rotate(270deg);
+            -webkit-transform: rotate(270deg);
+            }
+              .textdiv {
+                  -webkit-transition: opacity 1s;
+                transition: opacity 1s;
+                z-index: 4;
+                opacity:0.4;
+                width:300px;
+                 position: absolute;
+                 top:180px;
+      
+               left:5%; 
+               text-align: left;
+               font-weight:300;
+               color: white;
+               font-family: 'Exo', sans-serif;
+
+            }
+        </style>
+    </head>
+    <body>
+          
+       <div class="topdiv" id="protocol" > </div>
+        <div class="paneldiv" id="bgprotocol" > </div>
+        <div class="textdiv"  id="textprotocol">Protocols</div>
+        
+        <div class="topdiv" id="compendium" > </div>
+        <div class="paneldiv" id="bgcompendium" > </div>
+        <div class="textdiv" id="textcompendium" >Compendium Web Maps</div>
+        
+        <div class="topdiv" id="table" > </div>
+        <div class="paneldiv" id="bgtable" > </div>
+          <div class="textdiv"  id="texttable">Dictionary Table</div>
+        
+        <div class="topdiv" id="process" > </div>
+        <div class="paneldiv" id="bgprocess" > </div>
+        <div class="textdiv"  id="textprocess">Process Diagram</div>
+        
+        <div class="topdiv" id="tree" > </div>
+        <div class="paneldiv" id="bgtree" > </div>
+         <div class="textdiv" id="texttree" >Expandable Tree</div>
+        
+         <div class="topdiv" id="circles" > </div>
+        <div class="paneldiv" id="bgcircles" > </div>
+           <div class="textdiv"  id="textcircles">Stacked Circles</div>
+           
+        <div id="bracketdiv">&#93;</div>
+         <div id="bracketdivtext">new D3 visualizations</div>
+                 <div id="bracketdiv2">&#93;</div>
+                 <div id="bracketdivtext2">existing<br>representations</div>
+        <script>   
+        function loopDivsByClass(classname,divpadding,divheight){
+        var divs = document.getElementsByClassName(classname);
+                for (i = 0; i < divs.length; i++) {
+                    var newdivtop=divpadding+(i)*(divheight+divpadding);
+                    if (i===0) {
+                         document.getElementById("bracketdiv2").style.top=newdivtop+(divheight)+"px";
+                        var fontsize=200*window.innerHeight/667;
+                        document.getElementById("bracketdiv2").style.fontSize=fontsize+"px";
+                        var newtop=(Number(newdivtop)+(0.7*Number(divheight)));
+                        document.getElementById("bracketdivtext2").style.top=newtop+"px";
+                        fontsize=25*window.innerHeight/667;
+                        document.getElementById("bracketdivtext2").style.fontSize=fontsize+"px";
+                    }
+            
+            if (i===4) {
+                        document.getElementById("bracketdiv").style.top=newdivtop+(0.5*divheight)+"px";
+                        var fontsize=310*window.innerHeight/667;
+                        document.getElementById("bracketdiv").style.fontSize=fontsize+"px";
+                        document.getElementById("bracketdivtext").style.top=newdivtop+(0.5*divheight)+"px";
+                        fontsize=25*window.innerHeight/667;
+                        document.getElementById("bracketdivtext").style.fontSize=fontsize+"px";
+                        
+                    }
+                    divs[i].style.top=newdivtop+"px";
+                    divs[i].style.height=divheight+"px";
+                    
+                }     
+        }
+        function loopTextsByClass(classname,divpadding,divheight){
+        var divs = document.getElementsByClassName(classname);
+                for (i = 0; i < divs.length; i++) {
+                    var newdivtop=divpadding+(i)*(divheight+divpadding)+divheight*0.35;
+                    divs[i].style.top=newdivtop+"px";
+                    var fontsize=25*window.innerHeight/667;
+                    divs[i].style.fontSize=fontsize+"px";
+                    
+                }     
+        }
+         function resize()
+            {
+                 var divpadding=3;
+                var screenheight = window.innerHeight-20;//2*divpadding;
+                
+               
+                var divheight=screenheight/6-divpadding;
+                loopDivsByClass("paneldiv",divpadding,divheight);
+                loopDivsByClass("topdiv",divpadding,divheight);
+                loopTextsByClass("textdiv",divpadding,divheight);
+            }
+            function openPage(net,local){
+                var loadlocal=false;
+                if (loadlocal){
+                      window.open(local, 'ArgVis');
+                }else
+                {
+                     window.open(net, 'ArgVis');
+                }
+                
+              
+            }
+            
+            resize();
+            
+            $( "#protocol" ).click(function() {
+ openPage("http://www.forschungsinfo.de/kdsf-survey/argvis/protocols/anzeige.html?tutorialmode=0&p=xxx","http://localhost:8383/HTML5Application/protocols/anzeige.html?tutorialmode=0&p=xxx");
+});
+         $( "#process" ).click(function() {
+ openPage("http://www.forschungsinfo.de/kdsf-survey/argvis/indexswiper.html?selectedslide=0&tutorialmode=0&p=xxx","http://localhost:8383/HTML5Application/indexswiper.html?selectedslide=0&tutorialmode=0&p=xxx");
+});
+      $( "#compendium" ).click(function() {
+ openPage("http://www.forschungsinfo.de/kdsf-survey/argvis/compendium/compendium.html?tutorialmode=0&p=xxx","http://localhost:8383/HTML5Application/compendium/compendium.html?tutorialmode=0&p=xxx");
+});
+      $( "#tree" ).click(function() {
+ openPage("http://www.forschungsinfo.de/kdsf-survey/argvis/indexswiper.html?selectedslide=1&vismode=2&tutorialmode=0&p=xxx","http://localhost:8383/HTML5Application/indexswiper.html?selectedslide=1&vismode=2&tutorialmode=0&p=xxx");
+});
+      $( "#circles" ).click(function() {
+ openPage("http://www.forschungsinfo.de/kdsf-survey/argvis/indexswiper.html?selectedslide=1&vismode=1&tutorialmode=0&hidelevel=1&p=xxx","http://localhost:8383/HTML5Application/indexswiper.html?selectedslide=1&vismode=1&tutorialmode=0&hidelevel=1&p=xxx");
+});
+      $( "#table" ).click(function() {
+ openPage("http://www.forschungsinfo.de/kdsf-survey/argvis/html-table/tbl.html?tutorialmode=0&p=xxx","http://localhost:8383/HTML5Application/html-table/tbl.html?tutorialmode=0&p=xxx");
+});
+            $( ".topdiv" ).on("mouseenter",function (){
+                var classname=this.id;
+                $("#text"+classname).css("opacity",1);
+            });
+            $( ".topdiv" ).on("mouseleave",function (){
+                var classname=this.id;
+                $("#text"+classname).css("opacity",0.4);
+            });
+            
+            window.onresize = function() {
+                resize();
+            };
+            
+            
+        </script>
+    </body>
+</html>

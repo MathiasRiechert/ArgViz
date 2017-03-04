@@ -1,0 +1,382 @@
+.hinweistext{
+    font-size:11px;
+    font-style:italic;
+}
+
+
+.surveybutton{
+             font-size:14px;
+            font-family: "Arial";
+     width: 200px;
+    height: 15px;
+    line-height: 15px;
+    position: fixed;
+    bottom: 5px; 
+    left: 230px;
+    //margin-top: -100px;
+    //margin-left: -55px;
+    padding:5px;
+     border-radius: 5px;
+    color:#000;
+    border:1px solid #CCC;
+    background:#FAFAFA;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+    cursor:pointer;
+    z-index: 100;
+    max-width: 200px;
+    text-align: center; 
+}
+.surveybutton:hover{
+    background:#F5F5F5;
+}
+.tutorialbutton:hover{
+    
+    background:#F5F5F5;
+}
+.tutorialbutton{
+             font-size:14px;
+            font-family: "Arial";
+     width: 200px;
+    height: 15px;
+    line-height: 15px;
+    position: fixed;
+    bottom: 5px; 
+    left: 10px;
+    //margin-top: -100px;
+    /*margin-left: -55px;*/
+    padding:5px;
+     border-radius: 5px;
+    color:#000;
+    border:1px solid #CCC;
+    background:#FAFAFA;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+    cursor:pointer;
+    z-index: 100;
+    max-width: 200px;
+    text-align: center; 
+}
+
+
+.helpoverlayright {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 527px;
+  z-index: 100;
+  background-color: rgba(0,0,0,0.7);
+}
+
+.helptextright {
+                font-size:14px;
+            font-family: "Arial";
+    width: 300px;
+    height: 440px;
+    line-height: 20px;
+    position: fixed;
+    top: 30px; 
+    right: 180px;
+    //margin-top: -100px;
+    margin-left: -150px;
+    padding:20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    text-align: left;
+    z-index: 102; /* 1px higher than the overlay layer */
+}
+
+.helpmenuright {
+    width: 140px;
+    height: 440px;
+    line-height: 20px;
+    position: fixed;
+    top: 30px; 
+    right: 10px;
+    //margin-top: -100px;
+    margin-left: -150px;
+    padding: 20px 10px 20px 10px; /*top,right,bottom,left*/
+    background-color: #ffffff;
+    border-radius: 5px;
+    text-align: left;
+    z-index: 102; /* 1px higher than the overlay layer */
+}
+
+.helpbuttonright {
+             font-size:14px;
+            font-family: "Arial";
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    position: fixed;
+    top: 520px; 
+    right: 215px;
+    //margin-top: -100px;
+    margin-left: -150px;
+    padding:5px;
+     border-radius: 5px;
+    color:#000;
+    border:1px solid #CCC;
+    background:#fff;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+    cursor:pointer;
+
+    max-width: 100px;
+    text-align: center; 
+    
+}
+
+.helpoverlayleft {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  /* Firefox */
+width: -moz-calc(100% - 534px);
+/* WebKit */
+width: -webkit-calc(100% - 534px);
+/* Opera */
+width: -o-calc(100% - 534px);
+/* Standard */
+width: calc(100% - 534px);
+  z-index: 101;
+  background-color: rgba(0,0,0,0.7);
+}
+
+
+.helptextleft {
+                font-size:14px;
+            font-family: "Arial";
+    width: 300px;
+    height: 440px;
+    line-height: 20px;
+    position: fixed;
+    top: 30px; 
+        /* Firefox */
+left: -moz-calc((100% - 534px)/2);
+/* WebKit */
+left: -webkit-calc((100% - 534px)/2);
+/* Opera */
+left: -o-calc((100% - 534px)/2);
+/* Standard */
+left: calc((100% - 534px)/2);
+    //margin-top: -100px;
+    margin-left: -80px;
+    padding:20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    text-align: left;
+    z-index: 102; /* 1px higher than the overlay layer */
+}
+
+
+.helpmenuleft {
+    width: 140px;
+    height: 440px;
+    line-height: 20px;
+    position: fixed;
+    top: 30px; 
+    
+        /* Firefox */
+left: -moz-calc((100% - 534px)/2);
+/* WebKit */
+left: -webkit-calc((100% - 534px)/2);
+/* Opera */
+left: -o-calc((100% - 534px)/2);
+/* Standard */
+left: calc((100% - 534px)/2);
+    //margin-top: -100px;
+    margin-left: -250px;
+     padding: 20px 10px 20px 10px; /*top,right,bottom,left*/
+    background-color: #ffffff;
+    border-radius: 5px;
+    text-align: left;
+    z-index: 102; /* 1px higher than the overlay layer */
+}
+
+.helpbuttonleft {
+             font-size:14px;
+            font-family: "Arial";
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    position: fixed;
+    top: 520px; 
+        /* Firefox */
+left: -moz-calc((100% - 534px)/2);
+/* WebKit */
+left: -webkit-calc((100% - 534px)/2);
+/* Opera */
+left: -o-calc((100% - 534px)/2);
+/* Standard */
+left: calc((100% - 534px)/2);
+    //margin-top: -100px;
+    margin-left: -50px;
+    padding:5px;
+     border-radius: 5px;
+    color:#000;
+    border:1px solid #CCC;
+    background:#fff;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+    cursor:pointer;
+
+    max-width: 100px;
+    text-align: center; 
+    
+}
+
+.helpimage {
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.helpoverlaycenter {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  background-color: rgba(0,0,0,0.7);
+}
+
+.helptextcenter {
+                font-size:14px;
+            font-family: "Arial";
+    width: 600px;
+    height: 440px;
+    line-height: 20px;
+    position: fixed;
+    top: 30px;
+    left: 50%;//
+    margin-top: -100px;
+    margin-left: -235px;
+    padding:20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    text-align: left;
+    z-index: 102;/* 1px higher than the overlay layer */
+}
+
+.helpmenucenter {
+    width: 140px;
+    height: 440px;
+    line-height: 20px;
+    position: fixed;
+    top: 30px;
+    left: 50%;//
+    margin-top: -100px;
+    margin-left: -405px;
+     padding: 20px 10px 20px 10px; /*top,right,bottom,left*/
+    background-color: #ffffff;
+    border-radius: 5px;
+    text-align: left;
+    z-index: 103;/* 1px higher than the overlay layer */
+}
+.helpmenu h2 {
+    text-align: center;
+}
+.helpmenu a {
+    display: block;
+     font-weight: normal;
+    color: #AAA;
+    background-color: fff;
+    width: 132px;
+    text-align: left;
+    padding: 4px;
+    text-decoration: none;
+        -webkit-transition: 500ms linear 0s;
+	-moz-transition: 500ms linear 0s;
+	-o-transition: 500ms linear 0s;
+	transition: 500ms linear 0s;
+}
+.helpmenu { color: #AAA;
+            font-size:14px;
+            font-family: "Arial";
+}
+
+.visited a{
+       font-weight: bold!important;
+
+ color: #000!important;
+
+
+}
+
+.visited {color: #000!important;}
+
+.helpmenu a:hover, a:active {
+    /*background-color: #aaa;*/
+    color:#000000!important;
+    text-shadow: 0px 0px 10px #acc;
+}
+
+
+.helpmenu ul {
+    padding-left: 20px;
+    padding-right:0px;
+    padding-top:0px;
+    padding-bottom: 0px;
+    
+}
+
+a { cursor:pointer;}
+
+.helpmenu li {
+   
+    list-style-type:none; /* removes default bullet */
+      position:relative;
+      padding:0px;
+      margin-left:-12px;
+}
+
+.helpmenu li:before  {
+   
+        content:"\2219";    /* escaped unicode character \2219*/
+        font-size:7em;    /* the default unicode bullet size is very small */
+        line-height:0;        /* kills huge line height on resized bullet */
+        position:absolute;  /* position bullet relative to list item */
+        top:.14em;           /* vertical align bullet position relative to list item */
+        left:-0.2em;            /* position the bullet L- R relative to list item */
+       }
+
+
+.helpbuttoncenter {
+             font-size:14px;
+            font-family: "Arial";
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    position: fixed;
+    top: 520px; 
+    left: 50%;
+    //margin-top: -100px;
+    margin-left: -55px;
+    padding:5px;
+     border-radius: 5px;
+    color:#000;
+    border:1px solid #CCC;
+    background:#fff;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+    cursor:pointer;
+
+    max-width: 100px;
+    text-align: center; 
+    
+}
+
+
+.nichtEmpfohlen {
+color: #bf000d;
+text-decoration: line-through;
+}
+.erweiterungsteil {
+color:#eb9800;
+font-style:italic;
+}
+.empfohlen{
+color: #2b9e00;
+}
+.empfohlenSchale {
+color: #880099;
+}

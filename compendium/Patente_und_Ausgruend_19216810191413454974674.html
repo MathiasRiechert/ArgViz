@@ -1,0 +1,1690 @@
+﻿<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Patente und Ausgründungen</title>
+<style>
+td { font-family:Arial, Helvetica; font-size:8.0pt; font-weight:normal; }
+</style>
+<script Language="JavaScript1.2">
+<!--
+var highlightDiv = null;
+window.onload = function(){
+	var specificNodeID = unescape(parent.document.location.hash.substring(1));
+	scrollAndHighlight(specificNodeID);
+}
+
+var IE = 0; var IE5 = 0; var NS = 0; var GECKO = 0;
+var openpopups = new Array();
+if (document.all) {     // Internet Explorer Detected
+	OS = navigator.platform;
+	VER = new String(navigator.appVersion);
+	VER = VER.substr(VER.indexOf("MSIE")+5, VER.indexOf(" "));
+	if ((VER <= 5) && (OS == "Win32")) {
+		IE5 = true;
+	} else {
+		IE = true;
+	}
+}
+else if (document.layers) {   // Netscape Navigator Detected
+	NS = true;
+}
+else if (document.getElementById) { // Netscape 6 Detected
+	GECKO = true;
+}
+else {
+	alert("Unrecognized Browser Detected. Sorry, your browser is not compatible.");
+}
+
+function handleResize() {
+	location.reload();
+	return false;
+}
+
+if ((NS) && (navigator.platform == "MacPPC")) {
+	window.captureEvents(Event.RESIZE);
+	window.onresize = handleResize;
+}
+
+function scrollAndHighlight(specificNodeID) {
+	if (specificNodeID != null && specificNodeID != "") {
+		highlightDiv = document.getElementById(specificNodeID+'highlight');
+		if (highlightDiv) {
+			highlightDiv.style.visibility = 'visible';
+			x = highlightDiv.style.left;
+			y = highlightDiv.style.top;
+			yb = highlightDiv.style.height;
+			x = (x.substring(0, x.length-2))*1;
+			y = (y.substring(0, y.length-2))*1;
+			yb = (yb.substring(0, yb.length-2))*1;
+			y = y+yb;
+			window.scrollTo(x,y);
+			// This didn't work!
+			//node = highlightDiv = document.getElementById(specificNodeID);
+			//node.scrollIntoView(true);
+		}
+	}
+}
+
+function openNewWindow(url, name, features){
+	hideHints(1);
+	var popBox = window.open(url, name, features);
+	popBox.focus();
+return;
+}
+
+function loadFile(url, name) {
+	hideHints(1);
+	$('#compendium_chart').load(url);//window.location.href  =  url;
+return;
+}
+
+function openFile(url, name) {
+	hideHints(1);
+	var popBox = window.open(url, name);
+	popBox.focus();
+return;
+}
+
+function showHint(event, popupName) {
+	hideHints(1);
+	if (GECKO) {
+		document.getElementById(popupName).style.left = event.layerX+7 + document.body.scrollLeft;
+		document.getElementById(popupName).style.top = event.layerY-5 + document.body.scrollTop;
+		document.getElementById(popupName).style.background = "#FFFED9";
+		document.getElementById(popupName).style.visibility = "visible";
+		openpopups.push(popupName);
+	}
+	else if (NS) {
+		document.layers[popupName].moveTo(event.pageX+7 + document.body.scrollLeft, event.pageY-5 + document.body.scrollTop);
+		document.layers[popupName].bgColor = "#FFFED9";
+		document.layers[popupName].visibility = "show";
+		openpopups.push(popupName);
+	}
+	else if (IE || IE5) {
+		window.event.cancelBubble = true;
+		document.all[popupName].style.left = window.event.clientX+7 + document.body.scrollLeft;
+		document.all[popupName].style.top = window.event.clientY-5 + document.body.scrollTop;
+		document.all[popupName].style.visibility = "visible";
+		openpopups[openpopups.length] = popupName;
+	}
+	return false;
+}
+
+function hideHighlight() {
+	if (highlightDiv != null) {
+		highlightDiv.style.visibility = 'hidden';
+	}
+}
+
+function hideHints(fromBody) {
+	var popupname;
+	for (var i = 0; i < openpopups.length; i++) {
+		popupname = new String (openpopups[i]);
+		if ( IE || (GECKO && fromBody == 1)) {
+			document.getElementById(popupname).style.visibility = "hidden";
+		}
+		else if (NS) {
+			document.layers[popupname].visibility = "hide";
+		}
+		else if (IE5) {
+			document.all[popupname].style.visibility = "hidden";
+		}
+	}
+	openpopups = new Array();
+	return;
+}
+
+//-->
+</script>
+</head>
+
+<body onClick="hideHints(0); hideHighlight(); return false;"  style="margin:0px; padding: 0px;">
+<img Suppress=true src="images/19216810191413454974674_map.jpg" width="1315" height="6999" hspace=0 vspace=0 border=0 usemap="#19216810191413454974674_map">
+<map name="19216810191413454974674_map">
+<area id="nid19216810191413454993503_19216810191413454974674" shape="poly" coords="877,2502,910,2502, 910,2539,940,2539, 940,2555,846,2555, 846,2539,877,2539"   onClick="javascript:openNewWindow('details/19216810191413454993503_19216810191413454974674.html','19216810191413454993503','width=550, height=350, scrollbars=yes, resizable=yes');" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454993503imagehint'); return false;"/>
+<area shape="rect" coords="868,2499,875,2513" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454993503tags'); return false;"/>
+<area id="nid19216810191413454992926_19216810191413454974674" shape="poly" coords="907,4512,940,4512, 940,4549,951,4549, 951,4565,894,4565, 894,4549,907,4549"   onClick="javascript:openNewWindow('details/19216810191413454992926_19216810191413454974674.html','19216810191413454992926','width=550, height=350, scrollbars=yes, resizable=yes');" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454992926imagehint'); return false;"/>
+<area shape="rect" coords="898,4509,905,4523" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454992926tags'); return false;"/>
+<area id="nid19216810191413454993628_19216810191413454974674" shape="poly" coords="463,6628,496,6628, 496,6665,608,6665, 608,6681,350,6681, 350,6665,463,6665"   onClick="javascript:openNewWindow('details/19216810191413454993628_19216810191413454974674.html','19216810191413454993628','width=550, height=350, scrollbars=yes, resizable=yes');" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454993628imagehint'); return false;"/>
+<area shape="rect" coords="454,6625,461,6639" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454993628tags'); return false;"/>
+<area id="nid101511691424816731988_19216810191413454974674" shape="poly" coords="282,434,315,434, 315,472,371,472, 371,488,224,488, 224,472,282,472"   onClick="javascript:openNewWindow('details/101511691424816731988_19216810191413454974674.html','101511691424816731988','width=550, height=350, scrollbars=yes, resizable=yes');" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'101511691424816731988imagehint'); return false;"/>
+<area shape="rect" coords="273,431,280,445" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'101511691424816731988tags'); return false;"/>
+<area id="nid19216810191413454992255_19216810191413454974674" shape="poly" coords="882,3386,915,3386, 915,3423,1022,3423, 1022,3439,774,3439, 774,3423,882,3423"   onClick="javascript:openNewWindow('details/19216810191413454992255_19216810191413454974674.html','19216810191413454992255','width=550, height=350, scrollbars=yes, resizable=yes');" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454992255imagehint'); return false;"/>
+<area shape="rect" coords="915,3381,922,3397" onClick="javascript:openNewWindow('details/19216810191413454992255_19216810191413454974674.html','19216810191413454992255','width=550, height=350, scrollbars=yes, resizable=yes')" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454992255text'); return false;"/>
+<area shape="rect" coords="873,3383,880,3397" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454992255tags'); return false;"/>
+<area id="nid101511691433181583938_19216810191413454974674" shape="poly" coords="291,1172,324,1172, 324,1210,375,1210, 375,1226,238,1226, 238,1210,291,1210"   onClick="javascript:openNewWindow('details/101511691433181583938_19216810191413454974674.html','101511691433181583938','width=550, height=350, scrollbars=yes, resizable=yes');" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'101511691433181583938imagehint'); return false;"/>
+<area shape="rect" coords="282,1169,289,1183" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'101511691433181583938tags'); return false;"/>
+<area shape="rect" coords="1159,4379,1167,4393" onmouseover="showHint(event,'19216810191413454991428views'); return false;"/>
+<area id="nid19216810191413454992551_19216810191413454974674" shape="poly" coords="913,4926,946,4926, 946,4963,999,4963, 999,4979,858,4979, 858,4963,913,4963"   onClick="javascript:openNewWindow('details/19216810191413454992551_19216810191413454974674.html','19216810191413454992551','width=550, height=350, scrollbars=yes, resizable=yes');" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454992551imagehint'); return false;"/>
+<area shape="rect" coords="946,4921,953,4937" onClick="javascript:openNewWindow('details/19216810191413454992551_19216810191413454974674.html','19216810191413454992551','width=550, height=350, scrollbars=yes, resizable=yes')" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454992551text'); return false;"/>
+<area shape="rect" coords="904,4923,911,4937" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454992551tags'); return false;"/>
+<area id="nid19216810191413454993004_19216810191413454974674" shape="poly" coords="462,6722,495,6722, 495,6759,580,6759, 580,6775,376,6775, 376,6759,462,6759"   onClick="javascript:openNewWindow('details/19216810191413454993004_19216810191413454974674.html','19216810191413454993004','width=550, height=350, scrollbars=yes, resizable=yes');" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454993004imagehint'); return false;"/>
+<area shape="rect" coords="453,6719,460,6733" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454993004tags'); return false;"/>
+<area id="nid19216810191413454992910_19216810191413454974674" shape="poly" coords="730,3866,763,3866, 763,3903,822,3903, 822,3919,670,3919, 670,3903,730,3903"   onClick="javascript:openNewWindow('details/19216810191413454992910_19216810191413454974674.html','19216810191413454992910','width=550, height=350, scrollbars=yes, resizable=yes');" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454992910imagehint'); return false;"/>
+<area shape="rect" coords="763,3861,770,3877" onClick="javascript:openNewWindow('details/19216810191413454992910_19216810191413454974674.html','19216810191413454992910','width=550, height=350, scrollbars=yes, resizable=yes')" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454992910text'); return false;"/>
+<area shape="rect" coords="721,3863,728,3877" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454992910tags'); return false;"/>
+<area id="nid19216810191413454993191_19216810191413454974674" shape="poly" coords="666,2292,699,2292, 699,2329,716,2329, 716,2345,648,2345, 648,2329,666,2329"   onClick="javascript:openNewWindow('details/19216810191413454993191_19216810191413454974674.html','19216810191413454993191','width=550, height=350, scrollbars=yes, resizable=yes');" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454993191imagehint'); return false;"/>
+<area shape="rect" coords="699,2287,706,2303" onClick="javascript:openNewWindow('details/19216810191413454993191_19216810191413454974674.html','19216810191413454993191','width=550, height=350, scrollbars=yes, resizable=yes')" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454993191text'); return false;"/>
+<area shape="rect" coords="657,2289,664,2303" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454993191tags'); return false;"/>
+<area id="nid19216810191413454993066_19216810191413454974674" shape="poly" coords="501,5382,534,5382, 534,5419,604,5419, 604,5435,430,5435, 430,5419,501,5419"   onClick="javascript:openNewWindow('details/19216810191413454993066_19216810191413454974674.html','19216810191413454993066','width=550, height=350, scrollbars=yes, resizable=yes');" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454993066imagehint'); return false;"/>
+<area shape="rect" coords="534,5377,541,5393" onClick="javascript:openNewWindow('details/19216810191413454993066_19216810191413454974674.html','19216810191413454993066','width=550, height=350, scrollbars=yes, resizable=yes')" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454993066text'); return false;"/>
+<area shape="rect" coords="492,5379,499,5393" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454993066tags'); return false;"/>
+<area id="nid19216810191413454992973_19216810191413454974674" shape="poly" coords="490,5964,523,5964, 523,6001,555,6001, 555,6033,456,6033, 456,6001,490,6001"   onClick="javascript:openNewWindow('details/19216810191413454992973_19216810191413454974674.html','19216810191413454992973','width=550, height=350, scrollbars=yes, resizable=yes');" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454992973imagehint'); return false;"/>
+<area shape="rect" coords="523,5959,530,5975" onClick="javascript:openNewWindow('details/19216810191413454992973_19216810191413454974674.html','19216810191413454992973','width=550, height=350, scrollbars=yes, resizable=yes')" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454992973text'); return false;"/>
+<area shape="rect" coords="481,5961,488,5975" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454992973tags'); return false;"/>
+<area id="nid19216810191413454993675_19216810191413454974674" shape="poly" coords="710,3250,743,3250, 743,3287,806,3287, 806,3303,646,3303, 646,3287,710,3287"   onClick="javascript:openNewWindow('details/19216810191413454993675_19216810191413454974674.html','19216810191413454993675','width=550, height=350, scrollbars=yes, resizable=yes');" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454993675imagehint'); return false;"/>
+<area shape="rect" coords="743,3245,750,3261" onClick="javascript:openNewWindow('details/19216810191413454993675_19216810191413454974674.html','19216810191413454993675','width=550, height=350, scrollbars=yes, resizable=yes')" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454993675text'); return false;"/>
+<area shape="rect" coords="701,3247,708,3261" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454993675tags'); return false;"/>
+<area id="nid19216810191413454992723_19216810191413454974674" shape="poly" coords="410,1570,443,1570, 443,1607,459,1607, 459,1623,392,1623, 392,1607,410,1607"   onClick="javascript:openNewWindow('details/19216810191413454992723_19216810191413454974674.html','19216810191413454992723','width=550, height=350, scrollbars=yes, resizable=yes');" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454992723imagehint'); return false;"/>
+<area shape="rect" coords="443,1565,450,1581" onClick="javascript:openNewWindow('details/19216810191413454992723_19216810191413454974674.html','19216810191413454992723','width=550, height=350, scrollbars=yes, resizable=yes')" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454992723text'); return false;"/>
+<area shape="rect" coords="401,1567,408,1581" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454992723tags'); return false;"/>
+<area id="nid19216810191413454993425_19216810191413454974674" shape="poly" coords="109,202,142,202, 142,239,236,239, 236,271,14,271, 14,239,109,239"   onClick="javascript:openNewWindow('details/19216810191413454993425_19216810191413454974674.html','19216810191413454993425','width=550, height=350, scrollbars=yes, resizable=yes');" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454993425imagehint'); return false;"/>
+<area shape="rect" coords="100,199,107,213" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454993425tags'); return false;"/>
+<area id="nid19216810191413454992239_19216810191413454974674" shape="poly" coords="679,2042,712,2042, 712,2079,782,2079, 782,2095,608,2095, 608,2079,679,2079"   onClick="javascript:openNewWindow('details/19216810191413454992239_19216810191413454974674.html','19216810191413454992239','width=550, height=350, scrollbars=yes, resizable=yes');" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454992239imagehint'); return false;"/>
+<area shape="rect" coords="712,2037,719,2053" onClick="javascript:openNewWindow('details/19216810191413454992239_19216810191413454974674.html','19216810191413454992239','width=550, height=350, scrollbars=yes, resizable=yes')" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454992239text'); return false;"/>
+<area shape="rect" coords="670,2039,677,2053" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454992239tags'); return false;"/>
+<area id="nid101511691432810014822_19216810191413454974674" shape="poly" coords="499,5100,532,5100, 532,5137,590,5137, 590,5153,440,5153, 440,5137,499,5137"   onClick="javascript:openNewWindow('details/101511691432810014822_19216810191413454974674.html','101511691432810014822','width=550, height=350, scrollbars=yes, resizable=yes');" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'101511691432810014822imagehint'); return false;"/>
+<area shape="rect" coords="532,5095,539,5111" onClick="javascript:openNewWindow('details/101511691432810014822_19216810191413454974674.html','101511691432810014822','width=550, height=350, scrollbars=yes, resizable=yes')" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'101511691432810014822text'); return false;"/>
+<area shape="rect" coords="490,5097,497,5111" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'101511691432810014822tags'); return false;"/>
+<area id="nid19216810191413454993113_19216810191413454974674" shape="poly" coords="732,4586,765,4586, 765,4623,778,4623, 778,4639,718,4639, 718,4623,732,4623"   onClick="javascript:openNewWindow('details/19216810191413454993113_19216810191413454974674.html','19216810191413454993113','width=550, height=350, scrollbars=yes, resizable=yes');" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454993113imagehint'); return false;"/>
+<area shape="rect" coords="765,4581,772,4597" onClick="javascript:openNewWindow('details/19216810191413454993113_19216810191413454974674.html','19216810191413454993113','width=550, height=350, scrollbars=yes, resizable=yes')" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454993113text'); return false;"/>
+<area shape="rect" coords="723,4583,730,4597" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454993113tags'); return false;"/>
+<area id="nid19216810191413454985765_19216810191413454974674" shape="poly" coords="286,736,319,736, 319,774,328,774, 328,790,276,790, 276,774,286,774"   onClick="javascript:openNewWindow('details/19216810191413454985765_19216810191413454974674.html','19216810191413454985765','width=550, height=350, scrollbars=yes, resizable=yes');" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454985765imagehint'); return false;"/>
+<area shape="rect" coords="277,733,284,747" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454985765tags'); return false;"/>
+<area id="nid19216810191413454992785_19216810191413454974674" shape="poly" coords="735,4170,768,4170, 768,4207,791,4207, 791,4223,710,4223, 710,4207,735,4207"   onClick="javascript:openNewWindow('details/19216810191413454992785_19216810191413454974674.html','19216810191413454992785','width=550, height=350, scrollbars=yes, resizable=yes');" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454992785imagehint'); return false;"/>
+<area shape="rect" coords="768,4165,775,4181" onClick="javascript:openNewWindow('details/19216810191413454992785_19216810191413454974674.html','19216810191413454992785','width=550, height=350, scrollbars=yes, resizable=yes')" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454992785text'); return false;"/>
+<area shape="rect" coords="726,4167,733,4181" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454992785tags'); return false;"/>
+<area shape="rect" coords="1165,2485,1173,2499" onmouseover="showHint(event,'101511691427721941008views'); return false;"/>
+<area id="nid101511691425993371667_19216810191413454974674" shape="poly" coords="287,1476,320,1476, 320,1514,362,1514, 362,1530,244,1530, 244,1514,287,1514"   onClick="javascript:openNewWindow('details/101511691425993371667_19216810191413454974674.html','101511691425993371667','width=550, height=350, scrollbars=yes, resizable=yes');" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'101511691425993371667imagehint'); return false;"/>
+<area shape="rect" coords="320,1502,328,1516" onmouseover="showHint(event,'101511691425993371667views'); return false;"/>
+<area shape="rect" coords="320,1471,327,1487" onClick="javascript:openNewWindow('details/101511691425993371667_19216810191413454974674.html','101511691425993371667','width=550, height=350, scrollbars=yes, resizable=yes')" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'101511691425993371667text'); return false;"/>
+<area shape="rect" coords="278,1473,285,1487" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'101511691425993371667tags'); return false;"/>
+<area id="nid19216810191413454993238_19216810191413454974674" shape="poly" coords="681,1582,714,1582, 714,1619,821,1619, 821,1635,572,1635, 572,1619,681,1619"   onClick="javascript:openNewWindow('details/19216810191413454993238_19216810191413454974674.html','19216810191413454993238','width=550, height=350, scrollbars=yes, resizable=yes');" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454993238imagehint'); return false;"/>
+<area shape="rect" coords="714,1577,721,1593" onClick="javascript:openNewWindow('details/19216810191413454993238_19216810191413454974674.html','19216810191413454993238','width=550, height=350, scrollbars=yes, resizable=yes')" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454993238text'); return false;"/>
+<area shape="rect" coords="672,1579,679,1593" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454993238tags'); return false;"/>
+<area id="nid19216810191413454993175_19216810191413454974674" shape="poly" coords="910,4642,943,4642, 943,4679,1013,4679, 1013,4695,838,4695, 838,4679,910,4679"   onClick="javascript:openNewWindow('details/19216810191413454993175_19216810191413454974674.html','19216810191413454993175','width=550, height=350, scrollbars=yes, resizable=yes');" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454993175imagehint'); return false;"/>
+<area shape="rect" coords="901,4639,908,4653" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454993175tags'); return false;"/>
+<area id="nid101511691432811138942_19216810191413454974674" shape="poly" coords="492,5622,525,5622, 525,5659,587,5659, 587,5675,428,5675, 428,5659,492,5659"   onClick="javascript:openNewWindow('details/101511691432811138942_19216810191413454974674.html','101511691432811138942','width=550, height=350, scrollbars=yes, resizable=yes');" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'101511691432811138942imagehint'); return false;"/>
+<area shape="rect" coords="525,5617,532,5633" onClick="javascript:openNewWindow('details/101511691432811138942_19216810191413454974674.html','101511691432811138942','width=550, height=350, scrollbars=yes, resizable=yes')" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'101511691432811138942text'); return false;"/>
+<area shape="rect" coords="483,5619,490,5633" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'101511691432811138942tags'); return false;"/>
+<area id="nid19216810191413454992224_19216810191413454974674" shape="poly" coords="906,4446,939,4446, 939,4483,949,4483, 949,4499,894,4499, 894,4483,906,4483"   onClick="javascript:openNewWindow('details/19216810191413454992224_19216810191413454974674.html','19216810191413454992224','width=550, height=350, scrollbars=yes, resizable=yes');" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454992224imagehint'); return false;"/>
+<area shape="rect" coords="897,4443,904,4457" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454992224tags'); return false;"/>
+<area id="nid19216810191413454992598_19216810191413454974674" shape="poly" coords="694,3054,727,3054, 727,3091,755,3091, 755,3107,664,3107, 664,3091,694,3091"   onClick="javascript:openNewWindow('details/19216810191413454992598_19216810191413454974674.html','19216810191413454992598','width=550, height=350, scrollbars=yes, resizable=yes');" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454992598imagehint'); return false;"/>
+<area shape="rect" coords="727,3049,734,3065" onClick="javascript:openNewWindow('details/19216810191413454992598_19216810191413454974674.html','19216810191413454992598','width=550, height=350, scrollbars=yes, resizable=yes')" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454992598text'); return false;"/>
+<area shape="rect" coords="685,3051,692,3065" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454992598tags'); return false;"/>
+<area id="nid19216810191413454993534_19216810191413454974674" shape="poly" coords="109,26,142,26, 142,63,216,63, 216,79,34,79, 34,63,109,63"   onClick="javascript:openNewWindow('details/19216810191413454993534_19216810191413454974674.html','19216810191413454993534','width=550, height=350, scrollbars=yes, resizable=yes');" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454993534imagehint'); return false;"/>
+<area shape="rect" coords="142,21,149,37" onClick="javascript:openNewWindow('details/19216810191413454993534_19216810191413454974674.html','19216810191413454993534','width=550, height=350, scrollbars=yes, resizable=yes')" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454993534text'); return false;"/>
+<area shape="rect" coords="100,23,107,37" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454993534tags'); return false;"/>
+<area id="nid101511691424814450763_19216810191413454974674" shape="poly" coords="282,530,315,530, 315,568,371,568, 371,584,224,584, 224,568,282,568"   onClick="javascript:openNewWindow('details/101511691424814450763_19216810191413454974674.html','101511691424814450763','width=550, height=350, scrollbars=yes, resizable=yes');" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'101511691424814450763imagehint'); return false;"/>
+<area shape="rect" coords="315,556,323,570" onmouseover="showHint(event,'101511691424814450763views'); return false;"/>
+<area shape="rect" coords="315,525,322,541" onClick="javascript:openNewWindow('details/101511691424814450763_19216810191413454974674.html','101511691424814450763','width=550, height=350, scrollbars=yes, resizable=yes')" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'101511691424814450763text'); return false;"/>
+<area shape="rect" coords="273,527,280,541" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'101511691424814450763tags'); return false;"/>
+<area id="nid19216810191413454993222_19216810191413454974674" shape="poly" coords="728,3766,761,3766, 761,3803,786,3803, 786,3819,702,3819, 702,3803,728,3803"   onClick="javascript:openNewWindow('details/19216810191413454993222_19216810191413454974674.html','19216810191413454993222','width=550, height=350, scrollbars=yes, resizable=yes');" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454993222imagehint'); return false;"/>
+<area shape="rect" coords="761,3761,768,3777" onClick="javascript:openNewWindow('details/19216810191413454993222_19216810191413454974674.html','19216810191413454993222','width=550, height=350, scrollbars=yes, resizable=yes')" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454993222text'); return false;"/>
+<area shape="rect" coords="719,3763,726,3777" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454993222tags'); return false;"/>
+<area shape="rect" coords="1158,2685,1166,2699" onmouseover="showHint(event,'19216810191413454993597views'); return false;"/>
+<area id="nid19216810191413454993347_19216810191413454974674" shape="poly" coords="697,2892,730,2892, 730,2929,847,2929, 847,2945,578,2945, 578,2929,697,2929"   onClick="javascript:openNewWindow('details/19216810191413454993347_19216810191413454974674.html','19216810191413454993347','width=550, height=350, scrollbars=yes, resizable=yes');" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454993347imagehint'); return false;"/>
+<area shape="rect" coords="730,2887,737,2903" onClick="javascript:openNewWindow('details/19216810191413454993347_19216810191413454974674.html','19216810191413454993347','width=550, height=350, scrollbars=yes, resizable=yes')" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454993347text'); return false;"/>
+<area shape="rect" coords="688,2889,695,2903" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454993347tags'); return false;"/>
+<area id="nid19216810191413454992333_19216810191413454974674" shape="poly" coords="470,6804,503,6804, 503,6841,593,6841, 593,6857,378,6857, 378,6841,470,6841"   onClick="javascript:openNewWindow('details/19216810191413454992333_19216810191413454974674.html','19216810191413454992333','width=550, height=350, scrollbars=yes, resizable=yes');" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454992333imagehint'); return false;"/>
+<area shape="rect" coords="461,6801,468,6815" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454992333tags'); return false;"/>
+<area id="nid19216810191413454992941_19216810191413454974674" shape="poly" coords="669,1662,702,1662, 702,1699,833,1699, 833,1715,536,1715, 536,1699,669,1699"   onClick="javascript:openNewWindow('details/19216810191413454992941_19216810191413454974674.html','19216810191413454992941','width=550, height=350, scrollbars=yes, resizable=yes');" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454992941imagehint'); return false;"/>
+<area shape="rect" coords="702,1657,709,1673" onClick="javascript:openNewWindow('details/19216810191413454992941_19216810191413454974674.html','19216810191413454992941','width=550, height=350, scrollbars=yes, resizable=yes')" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454992941text'); return false;"/>
+<area shape="rect" coords="660,1659,667,1673" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454992941tags'); return false;"/>
+<area id="nid101511691425993784247_19216810191413454974674" shape="poly" coords="291,1336,324,1336, 324,1374,366,1374, 366,1390,248,1390, 248,1374,291,1374"   onClick="javascript:openNewWindow('details/101511691425993784247_19216810191413454974674.html','101511691425993784247','width=550, height=350, scrollbars=yes, resizable=yes');" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'101511691425993784247imagehint'); return false;"/>
+<area shape="rect" coords="282,1333,289,1347" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'101511691425993784247tags'); return false;"/>
+<area id="nid19216810191413454992271_19216810191413454974674" shape="poly" coords="278,858,311,858, 311,896,324,896, 324,912,264,912, 264,896,278,896"   onClick="javascript:openNewWindow('details/19216810191413454992271_19216810191413454974674.html','19216810191413454992271','width=550, height=350, scrollbars=yes, resizable=yes');" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454992271imagehint'); return false;"/>
+<area shape="rect" coords="311,853,318,869" onClick="javascript:openNewWindow('details/19216810191413454992271_19216810191413454974674.html','19216810191413454992271','width=550, height=350, scrollbars=yes, resizable=yes')" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454992271text'); return false;"/>
+<area shape="rect" coords="269,855,276,869" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454992271tags'); return false;"/>
+<area id="nid19216810191413454989884_19216810191413454974674" shape="poly" coords="284,618,317,618, 317,656,329,656, 329,672,270,672, 270,656,284,656"   onClick="javascript:openNewWindow('details/19216810191413454989884_19216810191413454974674.html','19216810191413454989884','width=550, height=350, scrollbars=yes, resizable=yes');" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454989884imagehint'); return false;"/>
+<area shape="rect" coords="317,644,325,658" onmouseover="showHint(event,'19216810191413454989884views'); return false;"/>
+<area shape="rect" coords="317,613,324,629" onClick="javascript:openNewWindow('details/19216810191413454989884_19216810191413454974674.html','19216810191413454989884','width=550, height=350, scrollbars=yes, resizable=yes')" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454989884text'); return false;"/>
+<area shape="rect" coords="275,615,282,629" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454989884tags'); return false;"/>
+<area id="nid19216810191413454992817_19216810191413454974674" shape="poly" coords="678,1810,711,1810, 711,1847,815,1847, 815,1863,572,1863, 572,1847,678,1847"   onClick="javascript:openNewWindow('details/19216810191413454992817_19216810191413454974674.html','19216810191413454992817','width=550, height=350, scrollbars=yes, resizable=yes');" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454992817imagehint'); return false;"/>
+<area shape="rect" coords="669,1807,676,1821" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454992817tags'); return false;"/>
+<area id="nid101511691432796402620_19216810191413454974674" shape="poly" coords="285,980,318,980, 318,1018,369,1018, 369,1034,232,1034, 232,1018,285,1018"   onClick="javascript:openNewWindow('details/101511691432796402620_19216810191413454974674.html','101511691432796402620','width=550, height=350, scrollbars=yes, resizable=yes');" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'101511691432796402620imagehint'); return false;"/>
+<area shape="rect" coords="318,1006,326,1020" onmouseover="showHint(event,'101511691432796402620views'); return false;"/>
+<area shape="rect" coords="276,977,283,991" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'101511691432796402620tags'); return false;"/>
+<area id="nid19216810191413454992754_19216810191413454974674" shape="poly" coords="871,2724,904,2724, 904,2761,926,2761, 926,2777,848,2777, 848,2761,871,2761"   onClick="javascript:openNewWindow('details/19216810191413454992754_19216810191413454974674.html','19216810191413454992754','width=550, height=350, scrollbars=yes, resizable=yes');" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454992754imagehint'); return false;"/>
+<area shape="rect" coords="862,2721,869,2735" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454992754tags'); return false;"/>
+<area id="nid101511691432809509180_19216810191413454974674" shape="poly" coords="502,5230,535,5230, 535,5267,618,5267, 618,5299,418,5299, 418,5267,502,5267"   onClick="javascript:openNewWindow('details/101511691432809509180_19216810191413454974674.html','101511691432809509180','width=550, height=350, scrollbars=yes, resizable=yes');" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'101511691432809509180imagehint'); return false;"/>
+<area shape="rect" coords="535,5225,542,5241" onClick="javascript:openNewWindow('details/101511691432809509180_19216810191413454974674.html','101511691432809509180','width=550, height=350, scrollbars=yes, resizable=yes')" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'101511691432809509180text'); return false;"/>
+<area shape="rect" coords="493,5227,500,5241" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'101511691432809509180tags'); return false;"/>
+<area id="nid19216810191413454993394_19216810191413454974674" shape="poly" coords="911,4706,944,4706, 944,4743,967,4743, 967,4759,886,4759, 886,4743,911,4743"   onClick="javascript:openNewWindow('details/19216810191413454993394_19216810191413454974674.html','19216810191413454993394','width=550, height=350, scrollbars=yes, resizable=yes');" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454993394imagehint'); return false;"/>
+<area shape="rect" coords="902,4703,909,4717" onmouseout="hideHints(1); return false;" onmouseover="showHint(event,'19216810191413454993394tags'); return false;"/>
+</map></div>
+
+<div id="nid19216810191413454992629_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1029px; top:6944px; width:238px; height:55px; border: 2px solid yellow"></div>
+
+<div id="nid19216810191413454993144_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1016px; top:4500px; width:257px; height:55px; border: 2px solid yellow"></div>
+
+<div id="nid101511691424191633820_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1013px; top:6274px; width:266px; height:71px; border: 2px solid yellow"></div>
+
+<div id="nid19216810191413454992567_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1047px; top:4592px; width:194px; height:55px; border: 2px solid yellow"></div>
+
+<div id="nid19216810191413454993269_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1015px; top:2914px; width:260px; height:71px; border: 2px solid yellow"></div>
+<div id="19216810191413454993503imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon or label to view this node's details
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454993503_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:844px; top:2500px; width:99px; height:55px; border: 2px solid yellow"></div>
+<div id="19216810191413454993503tags" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">
+				WR-empfohlenFuerKern<br/>
+				Ums-2<br/>
+				Abstimmung-Konsens<br/>
+				Nicht empfohlen<br/>
+				BetaBeirat<br/>
+				Eig+1
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454993082_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1030px; top:3524px; width:233px; height:71px; border: 2px solid yellow"></div>
+
+<div id="nid19216810191413454993690_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:988px; top:424px; width:327px; height:119px; border: 2px solid yellow"></div>
+
+<div id="nid19216810191413454993019_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1043px; top:2530px; width:200px; height:55px; border: 2px solid yellow"></div>
+<div id="19216810191413454992926imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon or label to view this node's details
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454992926_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:892px; top:4510px; width:62px; height:55px; border: 2px solid yellow"></div>
+<div id="19216810191413454992926tags" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">
+				Eig0<br/>
+				Abstimmung-Konsens<br/>
+				Nicht empfohlen<br/>
+				Ums0
+			</td>
+		</tr>
+	</table>
+</div>
+<div id="19216810191413454993628imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon or label to view this node's details
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454993628_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:348px; top:6626px; width:263px; height:55px; border: 2px solid yellow"></div>
+<div id="19216810191413454993628tags" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">
+				WR-empfohlenFuerKern<br/>
+				Abstimmung-Konsens<br/>
+				Ums+3<br/>
+				Nicht empfohlen<br/>
+				BetaBeirat<br/>
+				Differenz-UniAUF<br/>
+				Eig+1
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454992317_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1017px; top:6190px; width:262px; height:71px; border: 2px solid yellow"></div>
+
+<div id="nid19216810191413454993441_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1004px; top:662px; width:290px; height:71px; border: 2px solid yellow"></div>
+
+<div id="nid101511691433259280610_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1006px; top:5238px; width:279px; height:71px; border: 2px solid yellow"></div>
+<div id="101511691424816731988imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon or label to view this node's details
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid101511691424816731988_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:222px; top:432px; width:152px; height:56px; border: 2px solid yellow"></div>
+<div id="101511691424816731988tags" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">
+				Empfohlen
+			</td>
+		</tr>
+	</table>
+</div>
+<div id="19216810191413454992255imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon or label to view this node's details
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454992255_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:772px; top:3384px; width:253px; height:55px; border: 2px solid yellow"></div>
+<div id="19216810191413454992255text" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table width="250" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="250">
+			<td width="250" style="hint"><p>
+				Sofern die veröffentlichten oder erteilten Patente nicht von der Einrichtung selbst, sondern von Partnern aus dem Erfinderfeld angemeldet wurden, wird deren Bezug zur Einrichtung in einem Freitextfeld angegeben.
+			</p></td>
+		</tr>
+	</table>
+</div>
+<div id="19216810191413454992255tags" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">
+				WR-empfohlenFuerKern<br/>
+				Abstimmung-Konsens<br/>
+				Nicht empfohlen<br/>
+				Ums+2<br/>
+				Eig+1
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454992863_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1022px; top:2814px; width:253px; height:55px; border: 2px solid yellow"></div>
+
+<div id="nid19216810191413454993565_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1028px; top:3330px; width:239px; height:55px; border: 2px solid yellow"></div>
+<div id="101511691433181583938imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon or label to view this node's details
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid101511691433181583938_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:236px; top:1170px; width:142px; height:56px; border: 2px solid yellow"></div>
+<div id="101511691433181583938tags" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">
+				Empfohlen
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454993316_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1017px; top:128px; width:244px; height:71px; border: 2px solid yellow"></div>
+
+<div id="nid19216810191413454992614_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1024px; top:962px; width:238px; height:55px; border: 2px solid yellow"></div>
+
+<div id="nid19216810191413454992988_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1004px; top:3836px; width:282px; height:71px; border: 2px solid yellow"></div>
+
+<div id="nid19216810191413454992193_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1089px; top:6556px; width:107px; height:55px; border: 2px solid yellow"></div>
+
+<div id="nid19216810191413454991428_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1089px; top:4352px; width:107px; height:55px; border: 2px solid yellow"></div>
+<div id="19216810191413454991428views" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">				<a href="Beschaeftigte_19216810191413454974643.html#nid19216810191413454991428_19216810191413454974643" onClick="loadFile('Beschaeftigte_19216810191413454974643.html#nid19216810191413454991428_19216810191413454974643', '19216810191413454974643'); return false;">Beschaeftigte_19216810191413454974643.html</a>
+			</td>
+		</tr>
+		<tr>
+			<td nowrap style="hint">				Patente_und_Ausgruend_19216810191413454974674.html			</td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454992739_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1008px; top:1034px; width:277px; height:87px; border: 2px solid yellow"></div>
+
+<div id="nid19216810191413454993253_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1009px; top:5008px; width:274px; height:71px; border: 2px solid yellow"></div>
+<div id="19216810191413454992551imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon or label to view this node's details
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454992551_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:856px; top:4924px; width:146px; height:55px; border: 2px solid yellow"></div>
+<div id="19216810191413454992551text" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table width="250" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="250">
+			<td width="250" style="hint"><p>
+				Anzahl der an der Forschungseinrichtung gemeldeten Erfindungen, die durch die Einrichtung oder andere Technologieexperten hinsichtlich ihrer Patentierbarkeit und/oder wirtschaftlichen Verwertbarkeit evaluiert werden.
+			</p></td>
+		</tr>
+	</table>
+</div>
+<div id="19216810191413454992551tags" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">
+				Eig0<br/>
+				Abstimmung-Konsens<br/>
+				Nicht empfohlen<br/>
+				Ums0
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454992302_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1000px; top:4160px; width:293px; height:103px; border: 2px solid yellow"></div>
+<div id="19216810191413454993004imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon or label to view this node's details
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454993004_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:374px; top:6720px; width:209px; height:55px; border: 2px solid yellow"></div>
+<div id="19216810191413454993004tags" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">
+				Abstimmung-Konsens<br/>
+				Nicht empfohlen<br/>
+				BetaBeirat
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454993612_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:999px; top:1772px; width:296px; height:71px; border: 2px solid yellow"></div>
+
+<div id="nid19216810191413454992676_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1084px; top:4842px; width:115px; height:55px; border: 2px solid yellow"></div>
+<div id="19216810191413454992910imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon or label to view this node's details
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454992910_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:668px; top:3864px; width:157px; height:55px; border: 2px solid yellow"></div>
+<div id="19216810191413454992910text" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table width="250" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="250">
+			<td width="250" style="hint"><p>
+				Ein Patent ist im Sinne des Kerndatensatz Forschung als international anzugeben, wenn die Anmeldung des Patents in mehr als einem Land erfolgt ist.
+			</p></td>
+		</tr>
+	</table>
+</div>
+<div id="19216810191413454992910tags" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">
+				Abstimmung-Konsens<br/>
+				Ums+3<br/>
+				Nicht empfohlen<br/>
+				Eig+4
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454993378_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:994px; top:4270px; width:293px; height:71px; border: 2px solid yellow"></div>
+
+<div id="nid101511691433154144727_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:999px; top:5722px; width:291px; height:71px; border: 2px solid yellow"></div>
+<div id="19216810191413454993191imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon or label to view this node's details
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454993191_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:646px; top:2290px; width:73px; height:55px; border: 2px solid yellow"></div>
+<div id="19216810191413454993191text" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table width="250" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="250">
+			<td width="250" style="hint"><p>
+				Der Vorname und Name der erfindenden Person. Einrichtungsinterne Erfinder werden über die Personaldaten erfasst, einrichtungsexterne Erfinder als Freitextfeld.
+			</p></td>
+		</tr>
+	</table>
+</div>
+<div id="19216810191413454993191tags" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">
+				WR-empfohlenFuerKern<br/>
+				Abstimmung-Konsens<br/>
+				Empfohlen als Schale<br/>
+				Eig+1<br/>
+				Ums+4
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454993129_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1017px; top:1588px; width:255px; height:55px; border: 2px solid yellow"></div>
+
+<div id="nid19216810191413454993550_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1000px; top:3608px; width:299px; height:151px; border: 2px solid yellow"></div>
+
+<div id="nid19216810191413454992364_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1032px; top:3772px; width:229px; height:55px; border: 2px solid yellow"></div>
+<div id="19216810191413454993066imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon or label to view this node's details
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454993066_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:428px; top:5380px; width:179px; height:55px; border: 2px solid yellow"></div>
+<div id="19216810191413454993066text" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table width="250" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="250">
+			<td width="250" style="hint"><p>
+				Wurde ein Patent von mehreren Erfindern angemeldet, erfolgt die Zuordnung eines Patents zu dem Erfinder prozentual. Bei einer Anzahl von mehr als 4 Erfindern wird jedem Erfinder ein Anteil von 25% zugeordnet.
+
+Ist die im Kerndatensatz Forschung überg...
+			</p></td>
+		</tr>
+	</table>
+</div>
+<div id="19216810191413454993066tags" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">
+				WR-empfohlenFuerKern<br/>
+				Abstimmung-Konsens<br/>
+				Ums+3<br/>
+				Differenz-UniAUF<br/>
+				Empfohlen<br/>
+				Eig+1
+			</td>
+		</tr>
+	</table>
+</div>
+<div id="19216810191413454992973imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon or label to view this node's details
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454992973_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:454px; top:5962px; width:104px; height:71px; border: 2px solid yellow"></div>
+<div id="19216810191413454992973text" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table width="250" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="250">
+			<td width="250" style="hint"><p>
+				Im Kalenderjahr erzielte Erträge aus Schutzrechten oder Know-How (Lizenz-, Options- und Übertragungsverträge für alle Formen geistigen Eigentums (Urheberrecht, Know-How, Patente, usw.)).
+			</p></td>
+		</tr>
+	</table>
+</div>
+<div id="19216810191413454992973tags" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">
+				WR-empfohlenFuerErweiterungsteil<br/>
+				BetaBeirat<br/>
+				Abstimmung-Erweiterungsteil<br/>
+				Empfohlen als Schale<br/>
+				AbnahmeBeirat
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454993300_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1006px; top:828px; width:279px; height:87px; border: 2px solid yellow"></div>
+<div id="19216810191413454993675imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon or label to view this node's details
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454993675_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:644px; top:3248px; width:165px; height:55px; border: 2px solid yellow"></div>
+<div id="19216810191413454993675text" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table width="250" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="250">
+			<td width="250" style="hint"><p>
+				Forschungseinrichtung, die bei der Patentanmeldung angegeben wurde.
+			</p></td>
+		</tr>
+	</table>
+</div>
+<div id="19216810191413454993675tags" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">
+				Eig0<br/>
+				WR-empfohlenFuerKern<br/>
+				Abstimmung-Konsens<br/>
+				Nicht empfohlen<br/>
+				Ums+4
+			</td>
+		</tr>
+	</table>
+</div>
+<div id="19216810191413454992723imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon or label to view this node's details
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454992723_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:390px; top:1568px; width:72px; height:55px; border: 2px solid yellow"></div>
+<div id="19216810191413454992723text" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table width="250" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="250">
+			<td width="250" style="hint"><p>
+				Die Definition von Patenten richtet sich nach den jeweiligen Gesetzen (Europäisches Patentübereinkommen, PatG, GebrMG, MarkenG).
+
+Das Patent ist ab Erteilung zu zählen. Im Sinne des Kerndatensatz Forschung werden Patente gezählt, bei denen die Forsch...
+			</p></td>
+		</tr>
+	</table>
+</div>
+<div id="19216810191413454992723tags" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">
+				WR-empfohlenFuerKern<br/>
+				Abstimmung-Konsens<br/>
+				Ums+2<br/>
+				Eig+2<br/>
+				Empfohlen
+			</td>
+		</tr>
+	</table>
+</div>
+<div id="19216810191413454993425imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon or label to view this node's details
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454993425_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:12px; top:200px; width:227px; height:71px; border: 2px solid yellow"></div>
+<div id="19216810191413454993425tags" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">
+				KeineDiffAnmerkung<br/>
+				Empfohlen für spätere Erweiterung<br/>
+				WR-empfohlenFuerErweiterungsteil<br/>
+				Abstimmung-Erweiterungsteil<br/>
+				Ums+2<br/>
+				Eig+2
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413461014050_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1013px; top:1956px; width:260px; height:71px; border: 2px solid yellow"></div>
+<div id="19216810191413454992239imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon or label to view this node's details
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454992239_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:606px; top:2040px; width:179px; height:55px; border: 2px solid yellow"></div>
+<div id="19216810191413454992239text" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table width="250" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="250">
+			<td width="250" style="hint"><p>
+				Die Veröffentlichungsnummer dient zur Recherche weiterer Informationen.
+			</p></td>
+		</tr>
+	</table>
+</div>
+<div id="19216810191413454992239tags" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">
+				Abstimmung-Konsens<br/>
+				BetaBeirat<br/>
+				Empfohlen
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid101511691433259251566_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1020px; top:5154px; width:249px; height:71px; border: 2px solid yellow"></div>
+
+<div id="nid19216810191413454992661_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1003px; top:4906px; width:278px; height:71px; border: 2px solid yellow"></div>
+
+<div id="nid19216810191413454993363_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1011px; top:6876px; width:269px; height:55px; border: 2px solid yellow"></div>
+<div id="101511691432810014822imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon or label to view this node's details
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid101511691432810014822_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:438px; top:5098px; width:155px; height:55px; border: 2px solid yellow"></div>
+<div id="101511691432810014822text" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table width="250" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="250">
+			<td width="250" style="hint"><p>
+				Anzahl der am 31.12. eines Jahres insgesamt bestehenden (angemeldeten und erteilten) Patentfamilien. Erstes Mitglied einer Patentfamilie ist die prioritätsbegründende Anmeldung; alle weiteren Anmeldungen, die diese Priorität in Anspruch nehmen, sind ...
+			</p></td>
+		</tr>
+	</table>
+</div>
+<div id="101511691432810014822tags" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">
+				Empfohlen<br/>
+				AbnahmeBeirat
+			</td>
+		</tr>
+	</table>
+</div>
+<div id="19216810191413454993113imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon or label to view this node's details
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454993113_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:716px; top:4584px; width:65px; height:55px; border: 2px solid yellow"></div>
+<div id="19216810191413454993113text" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table width="250" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="250">
+			<td width="250" style="hint"><p>
+				Der Status eines Patents wird im Sinne des Kerndatensatzes als Erteilt oder Veröffentlichung der Anmeldung erhoben.
+			</p></td>
+		</tr>
+	</table>
+</div>
+<div id="19216810191413454993113tags" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">
+				WR-empfohlenFuerKern<br/>
+				Abstimmung-Konsens<br/>
+				Ums+3<br/>
+				Eig-1<br/>
+				Nicht empfohlen
+			</td>
+		</tr>
+	</table>
+</div>
+<div id="19216810191413454985765imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon or label to view this node's details
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454985765_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:274px; top:734px; width:57px; height:56px; border: 2px solid yellow"></div>
+<div id="19216810191413454985765tags" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">
+				WR-empfohlenFuerKern<br/>
+				Abstimmung-weitereNachProjektlaufzeit<br/>
+				Eig-2<br/>
+				Ums+1<br/>
+				Differenz-UniAUF<br/>
+				Empfohlen
+			</td>
+		</tr>
+	</table>
+</div>
+<div id="19216810191413454992785imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon or label to view this node's details
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454992785_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:708px; top:4168px; width:86px; height:55px; border: 2px solid yellow"></div>
+<div id="19216810191413454992785text" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table width="250" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="250">
+			<td width="250" style="hint"><p>
+				Das Europäische Patentamt (EPA) ist das Exekutivorgan der Europäischen Patentorganisation, einer zwischenstaatlichen Einrichtung, die auf Basis des am 5. Oktober 1973 in München unterzeichneten und am 7. Oktober 1977 in Kraft getretenen Europäischen ...
+			</p></td>
+		</tr>
+	</table>
+</div>
+<div id="19216810191413454992785tags" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">
+				Eig0<br/>
+				WR-empfohlenFuerKern<br/>
+				Abstimmung-Konsens<br/>
+				Nicht empfohlen<br/>
+				Ums0
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454993487_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1026px; top:204px; width:242px; height:71px; border: 2px solid yellow"></div>
+
+<div id="nid101511691427721941008_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1005px; top:2458px; width:286px; height:55px; border: 2px solid yellow"></div>
+<div id="101511691427721941008views" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">				<a href="Drittmittel_und_Fina_19216810191413454974487.html#nid101511691427721941008_19216810191413454974487" onClick="loadFile('Drittmittel_und_Fina_19216810191413454974487.html#nid101511691427721941008_19216810191413454974487', '19216810191413454974487'); return false;">Drittmittel_und_Fina_19216810191413454974487.html</a>
+			</td>
+		</tr>
+		<tr>
+			<td nowrap style="hint">				Patente_und_Ausgruend_19216810191413454974674.html			</td>
+		</tr>
+	</table>
+</div>
+<div id="101511691425993371667imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon or label to view this node's details
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid101511691425993371667_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:242px; top:1474px; width:123px; height:56px; border: 2px solid yellow"></div>
+<div id="101511691425993371667views" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">				<a href="Beschaeftigte_19216810191413454974643.html#nid101511691425993371667_19216810191413454974643" onClick="loadFile('Beschaeftigte_19216810191413454974643.html#nid101511691425993371667_19216810191413454974643', '19216810191413454974643'); return false;">Beschaeftigte_19216810191413454974643.html</a>
+			</td>
+		</tr>
+		<tr>
+			<td nowrap style="hint">				<a href="Budget_101511141417774815599.html#nid101511691425993371667_101511141417774815599" onClick="loadFile('Budget_101511141417774815599.html#nid101511691425993371667_101511141417774815599', '101511141417774815599'); return false;">Budget_101511141417774815599.html</a>
+			</td>
+		</tr>
+		<tr>
+			<td nowrap style="hint">				<a href="Drittmittel_und_Fina_19216810191413454974487.html#nid101511691425993371667_19216810191413454974487" onClick="loadFile('Drittmittel_und_Fina_19216810191413454974487.html#nid101511691425993371667_19216810191413454974487', '19216810191413454974487'); return false;">Drittmittel_und_Fina_19216810191413454974487.html</a>
+			</td>
+		</tr>
+		<tr>
+			<td nowrap style="hint">				<a href="Nachwuchsfoerderung_19216810191413454974627.html#nid101511691425993371667_19216810191413454974627" onClick="loadFile('Nachwuchsfoerderung_19216810191413454974627.html#nid101511691425993371667_19216810191413454974627', '19216810191413454974627'); return false;">Nachwuchsfoerderung_19216810191413454974627.html</a>
+			</td>
+		</tr>
+		<tr>
+			<td nowrap style="hint">				Patente_und_Ausgruend_19216810191413454974674.html			</td>
+		</tr>
+		<tr>
+			<td nowrap style="hint">				<a href="Personen_ohne_Beschae_101511141417776522789.html#nid101511691425993371667_101511141417776522789" onClick="loadFile('Personen_ohne_Beschae_101511141417776522789.html#nid101511691425993371667_101511141417776522789', '101511141417776522789'); return false;">Personen_ohne_Beschae_101511141417776522789.html</a>
+			</td>
+		</tr>
+		<tr>
+			<td nowrap style="hint">				<a href="Publikationen_19216810191413454974565.html#nid101511691425993371667_19216810191413454974565" onClick="loadFile('Publikationen_19216810191413454974565.html#nid101511691425993371667_19216810191413454974565', '19216810191413454974565'); return false;">Publikationen_19216810191413454974565.html</a>
+			</td>
+		</tr>
+	</table>
+</div>
+<div id="101511691425993371667text" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table width="250" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="250">
+			<td width="250" style="hint"><p>
+				Ein Forschungsfeld umfasst eine Menge von Forschungsaktivitäten, die sich problemorientiert mit einem thematisch abgrenzbaren Gegenstandsbereich, der quer zu Disziplinen liegt, beschreiben lassen.  Ein Forschungsfeld sollte auf einem Abstraktionsgrad...
+			</p></td>
+		</tr>
+	</table>
+</div>
+<div id="101511691425993371667tags" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">
+				BetaBeirat<br/>
+				Empfohlen als Schale
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454992536_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1044px; top:3238px; width:197px; height:55px; border: 2px solid yellow"></div>
+<div id="19216810191413454993238imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon or label to view this node's details
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454993238_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:570px; top:1580px; width:254px; height:55px; border: 2px solid yellow"></div>
+<div id="19216810191413454993238text" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table width="250" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="250">
+			<td width="250" style="hint"><p>
+				Der Titel des Patentes aus der Anmeldung.
+			</p></td>
+		</tr>
+	</table>
+</div>
+<div id="19216810191413454993238tags" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">
+				WR-empfohlenFuerKern<br/>
+				Abstimmung-Konsens<br/>
+				Ums+2<br/>
+				Empfohlen<br/>
+				Eig+1
+			</td>
+		</tr>
+	</table>
+</div>
+<div id="19216810191413454993175imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon or label to view this node's details
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454993175_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:836px; top:4640px; width:180px; height:55px; border: 2px solid yellow"></div>
+<div id="19216810191413454993175tags" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">
+				WR-empfohlenFuerKern<br/>
+				Abstimmung-Konsens<br/>
+				Nicht empfohlen<br/>
+				Ums+2<br/>
+				Eig+1
+			</td>
+		</tr>
+	</table>
+</div>
+<div id="101511691432811138942imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon or label to view this node's details
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid101511691432811138942_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:426px; top:5620px; width:164px; height:55px; border: 2px solid yellow"></div>
+<div id="101511691432811138942text" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table width="250" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="250">
+			<td width="250" style="hint"><p>
+				Anzahl der erfolgten Ausgründungen, die zur Verwertung von geistigem Eigentum oder Know-how der Einrichtung  unter Abschluss einer formalen Vereinbarung gegründet wurden (Nutzungs-, Lizenz- und/oder Beteiligungsvertrag).
+			</p></td>
+		</tr>
+	</table>
+</div>
+<div id="101511691432811138942tags" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">
+				BetaBeirat<br/>
+				Empfohlen<br/>
+				AbnahmeBeirat
+			</td>
+		</tr>
+	</table>
+</div>
+<div id="19216810191413454992224imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon or label to view this node's details
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454992224_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:892px; top:4444px; width:60px; height:55px; border: 2px solid yellow"></div>
+<div id="19216810191413454992224tags" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">
+				Eig0<br/>
+				Abstimmung-Konsens<br/>
+				Nicht empfohlen<br/>
+				Ums0
+			</td>
+		</tr>
+	</table>
+</div>
+<div id="19216810191413454992598imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon or label to view this node's details
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454992598_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:662px; top:3052px; width:96px; height:55px; border: 2px solid yellow"></div>
+<div id="19216810191413454992598text" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table width="250" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="250">
+			<td width="250" style="hint"><p>
+				Die Erfinder-ID ist, soweit vorhanden, als ORCID anzugeben.
+			</p></td>
+		</tr>
+	</table>
+</div>
+<div id="19216810191413454992598tags" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">
+				Abstimmung-Konsens<br/>
+				Eig-1<br/>
+				Nicht empfohlen<br/>
+				Ums-3<br/>
+				AbnahmeBeirat
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454992832_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:998px; top:2112px; width:301px; height:135px; border: 2px solid yellow"></div>
+<div id="19216810191413454993534imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon or label to view this node's details
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454993534_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:32px; top:24px; width:187px; height:55px; border: 2px solid yellow"></div>
+<div id="19216810191413454993534text" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table width="250" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="250">
+			<td width="250" style="hint"><p>
+				Patente und Ausgründungen umfassen von der Forschungseinrichtung angemeldete und erteilte Patente und Patentfamilien. Weiterhin werden Ausgründungen und Erträge aus Schutzrechten der Forschungseinrichtung erhoben.
+
+Eine weitere Ausdifferenzierung, mö...
+			</p></td>
+		</tr>
+	</table>
+</div>
+<div id="19216810191413454993534tags" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">
+				KeineDiffAnmerkung<br/>
+				WR-empfohlenFuerKern<br/>
+				LinkStichtag<br/>
+				Abstimmung-Konsens<br/>
+				BetaBeirat<br/>
+				Ums+2<br/>
+				Empfohlen<br/>
+				Eig+1
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454992349_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1013px; top:1864px; width:256px; height:71px; border: 2px solid yellow"></div>
+<div id="101511691424814450763imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon or label to view this node's details
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid101511691424814450763_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:222px; top:528px; width:152px; height:56px; border: 2px solid yellow"></div>
+<div id="101511691424814450763views" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">				<a href="Beschaeftigte_19216810191413454974643.html#nid101511691424814450763_19216810191413454974643" onClick="loadFile('Beschaeftigte_19216810191413454974643.html#nid101511691424814450763_19216810191413454974643', '19216810191413454974643'); return false;">Beschaeftigte_19216810191413454974643.html</a>
+			</td>
+		</tr>
+		<tr>
+			<td nowrap style="hint">				<a href="Budget_101511141417774815599.html#nid101511691424814450763_101511141417774815599" onClick="loadFile('Budget_101511141417774815599.html#nid101511691424814450763_101511141417774815599', '101511141417774815599'); return false;">Budget_101511141417774815599.html</a>
+			</td>
+		</tr>
+		<tr>
+			<td nowrap style="hint">				<a href="Drittmittel_und_Fina_19216810191413454974487.html#nid101511691424814450763_19216810191413454974487" onClick="loadFile('Drittmittel_und_Fina_19216810191413454974487.html#nid101511691424814450763_19216810191413454974487', '19216810191413454974487'); return false;">Drittmittel_und_Fina_19216810191413454974487.html</a>
+			</td>
+		</tr>
+		<tr>
+			<td nowrap style="hint">				<a href="Nachwuchsfoerderung_19216810191413454974627.html#nid101511691424814450763_19216810191413454974627" onClick="loadFile('Nachwuchsfoerderung_19216810191413454974627.html#nid101511691424814450763_19216810191413454974627', '19216810191413454974627'); return false;">Nachwuchsfoerderung_19216810191413454974627.html</a>
+			</td>
+		</tr>
+		<tr>
+			<td nowrap style="hint">				Patente_und_Ausgruend_19216810191413454974674.html			</td>
+		</tr>
+		<tr>
+			<td nowrap style="hint">				<a href="Personen_ohne_Beschae_101511141417776522789.html#nid101511691424814450763_101511141417776522789" onClick="loadFile('Personen_ohne_Beschae_101511141417776522789.html#nid101511691424814450763_101511141417776522789', '101511141417776522789'); return false;">Personen_ohne_Beschae_101511141417776522789.html</a>
+			</td>
+		</tr>
+		<tr>
+			<td nowrap style="hint">				<a href="Publikationen_19216810191413454974565.html#nid101511691424814450763_19216810191413454974565" onClick="loadFile('Publikationen_19216810191413454974565.html#nid101511691424814450763_19216810191413454974565', '19216810191413454974565'); return false;">Publikationen_19216810191413454974565.html</a>
+			</td>
+		</tr>
+	</table>
+</div>
+<div id="101511691424814450763text" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table width="250" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="250">
+			<td width="250" style="hint"><p>
+				Anzugeben ist jeweils die kleinste, an der Forschungseinrichtung bestehende organisatorische Einheit, der Personal/Stellen zugeordnet ist/sind. Es wird empfohlen, bei der Benennung der Organisationseinheiten die Bezeichnungen des DFG-Research Explore...
+			</p></td>
+		</tr>
+	</table>
+</div>
+<div id="101511691424814450763tags" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">
+				Empfohlen
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454992957_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:983px; top:282px; width:322px; height:71px; border: 2px solid yellow"></div>
+
+<div id="nid19216810191413460529643_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1002px; top:2032px; width:288px; height:71px; border: 2px solid yellow"></div>
+
+<div id="nid19216810191413454992770_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1051px; top:3450px; width:182px; height:55px; border: 2px solid yellow"></div>
+
+<div id="nid19216810191413454993472_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1024px; top:744px; width:247px; height:55px; border: 2px solid yellow"></div>
+
+<div id="nid19216810191413454993409_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:996px; top:5524px; width:301px; height:103px; border: 2px solid yellow"></div>
+
+<div id="nid19216810191413454992707_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1028px; top:2280px; width:238px; height:55px; border: 2px solid yellow"></div>
+
+<div id="nid101511691425413927254_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:998px; top:1700px; width:294px; height:71px; border: 2px solid yellow"></div>
+
+<div id="nid101511691433258502151_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1004px; top:1436px; width:292px; height:71px; border: 2px solid yellow"></div>
+
+<div id="nid101511691425406886785_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1010px; top:5324px; width:273px; height:87px; border: 2px solid yellow"></div>
+<div id="19216810191413454993222imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon or label to view this node's details
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454993222_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:700px; top:3764px; width:89px; height:55px; border: 2px solid yellow"></div>
+<div id="19216810191413454993222text" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table width="250" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="250">
+			<td width="250" style="hint"><p>
+				Eine Patentfamilie umfasst ein Set an Patenten, die in verschiedenen Ländern angemeldet wurden, um die gleiche Erfindung zu schützen. 
+
+Erstes Mitglied einer Patentfamilie ist die prioritätsbegründende Anmeldung. Alle weiteren Anmeldungen, die die Pr...
+			</p></td>
+		</tr>
+	</table>
+</div>
+<div id="19216810191413454993222tags" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">
+				WR-empfohlenFuerKern<br/>
+				Ums+1<br/>
+				Abstimmung-Konsens<br/>
+				Nicht empfohlen<br/>
+				Eig+2
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454993597_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1058px; top:2658px; width:166px; height:55px; border: 2px solid yellow"></div>
+<div id="19216810191413454993597views" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">				<a href="Drittmittel_und_Fina_19216810191413454974487.html#nid19216810191413454993597_19216810191413454974487" onClick="loadFile('Drittmittel_und_Fina_19216810191413454974487.html#nid19216810191413454993597_19216810191413454974487', '19216810191413454974487'); return false;">Drittmittel_und_Fina_19216810191413454974487.html</a>
+			</td>
+		</tr>
+		<tr>
+			<td nowrap style="hint">				Patente_und_Ausgruend_19216810191413454974674.html			</td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454992286_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1014px; top:2366px; width:261px; height:55px; border: 2px solid yellow"></div>
+<div id="19216810191413454993347imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon or label to view this node's details
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454993347_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:576px; top:2890px; width:274px; height:55px; border: 2px solid yellow"></div>
+<div id="19216810191413454993347text" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table width="250" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="250">
+			<td width="250" style="hint"><p>
+				Optional wird der englische Titel mit angegeben.
+			</p></td>
+		</tr>
+	</table>
+</div>
+<div id="19216810191413454993347tags" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">
+				Abstimmung-Konsens<br/>
+				Nicht empfohlen<br/>
+				BetaBeirat<br/>
+				Ums+2<br/>
+				Eig+1
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454992645_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1078px; top:6700px; width:123px; height:71px; border: 2px solid yellow"></div>
+
+<div id="nid19216810191413454993160_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1018px; top:4676px; width:251px; height:71px; border: 2px solid yellow"></div>
+
+<div id="nid19216810191413454992583_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1008px; top:3116px; width:276px; height:55px; border: 2px solid yellow"></div>
+
+<div id="nid19216810191413454993285_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1001px; top:550px; width:293px; height:103px; border: 2px solid yellow"></div>
+<div id="19216810191413454992333imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon or label to view this node's details
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454992333_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:376px; top:6802px; width:220px; height:55px; border: 2px solid yellow"></div>
+<div id="19216810191413454992333tags" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">
+				Abstimmung-Konsens<br/>
+				Nicht empfohlen<br/>
+				BetaBeirat<br/>
+				AbnahmeBeirat
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454993643_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1049px; top:4428px; width:191px; height:55px; border: 2px solid yellow"></div>
+<div id="19216810191413454992941imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon or label to view this node's details
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454992941_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:534px; top:1660px; width:302px; height:55px; border: 2px solid yellow"></div>
+<div id="19216810191413454992941text" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table width="250" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="250">
+			<td width="250" style="hint"><p>
+				Die Zuordnung einer Patentanmeldung zu einer Zeitperiode erfolgt anhand des Anmeldetages.
+
+Jede Erstanmeldung wird nur einfach gezählt, unabhängig davon, für welche und in wie vielen Ländern die Erstanmeldung einer bestimmten Erfindung erfolgt.
+			</p></td>
+		</tr>
+	</table>
+</div>
+<div id="19216810191413454992941tags" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">
+				WR-empfohlenFuerKern<br/>
+				Abstimmung-Konsens<br/>
+				BetaBeirat<br/>
+				Empfohlen<br/>
+				Eig+1<br/>
+				Ums+4
+			</td>
+		</tr>
+	</table>
+</div>
+<div id="101511691425993784247imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon or label to view this node's details
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid101511691425993784247_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:246px; top:1334px; width:123px; height:56px; border: 2px solid yellow"></div>
+<div id="101511691425993784247tags" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">
+				Empfohlen als Schale
+			</td>
+		</tr>
+	</table>
+</div>
+<div id="19216810191413454992271imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon or label to view this node's details
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454992271_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:262px; top:856px; width:65px; height:56px; border: 2px solid yellow"></div>
+<div id="19216810191413454992271text" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table width="250" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="250">
+			<td width="250" style="hint"><p>
+				Technisch einmalige erteilte Patente. Erteilungen für die gleiche Erfindung in zwei oder mehr Ländern werden nur einfach gezählt. Wenn ein technisch einmaliges erteiltes Patent im Vorjahr gezählt wurde, kann es nicht noch einmal aufgeführt werden.
+
+E...
+			</p></td>
+		</tr>
+	</table>
+</div>
+<div id="19216810191413454992271tags" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">
+				WR-empfohlenFuerKern<br/>
+				Abstimmung-Konsens<br/>
+				BetaBeirat<br/>
+				Ums+2<br/>
+				Empfohlen<br/>
+				Eig+1
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454993581_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1068px; top:2734px; width:154px; height:55px; border: 2px solid yellow"></div>
+<div id="19216810191413454989884imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon or label to view this node's details
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454989884_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:268px; top:616px; width:64px; height:56px; border: 2px solid yellow"></div>
+<div id="19216810191413454989884views" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">				<a href="Beschaeftigte_19216810191413454974643.html#nid19216810191413454989884_19216810191413454974643" onClick="loadFile('Beschaeftigte_19216810191413454974643.html#nid19216810191413454989884_19216810191413454974643', '19216810191413454974643'); return false;">Beschaeftigte_19216810191413454974643.html</a>
+			</td>
+		</tr>
+		<tr>
+			<td nowrap style="hint">				<a href="Budget_101511141417774815599.html#nid19216810191413454989884_101511141417774815599" onClick="loadFile('Budget_101511141417774815599.html#nid19216810191413454989884_101511141417774815599', '101511141417774815599'); return false;">Budget_101511141417774815599.html</a>
+			</td>
+		</tr>
+		<tr>
+			<td nowrap style="hint">				<a href="Drittmittel_und_Fina_19216810191413454974487.html#nid19216810191413454989884_19216810191413454974487" onClick="loadFile('Drittmittel_und_Fina_19216810191413454974487.html#nid19216810191413454989884_19216810191413454974487', '19216810191413454974487'); return false;">Drittmittel_und_Fina_19216810191413454974487.html</a>
+			</td>
+		</tr>
+		<tr>
+			<td nowrap style="hint">				<a href="Nachwuchsfoerderung_19216810191413454974627.html#nid19216810191413454989884_19216810191413454974627" onClick="loadFile('Nachwuchsfoerderung_19216810191413454974627.html#nid19216810191413454989884_19216810191413454974627', '19216810191413454974627'); return false;">Nachwuchsfoerderung_19216810191413454974627.html</a>
+			</td>
+		</tr>
+		<tr>
+			<td nowrap style="hint">				Patente_und_Ausgruend_19216810191413454974674.html			</td>
+		</tr>
+		<tr>
+			<td nowrap style="hint">				<a href="Personen_ohne_Beschae_101511141417776522789.html#nid19216810191413454989884_101511141417776522789" onClick="loadFile('Personen_ohne_Beschae_101511141417776522789.html#nid19216810191413454989884_101511141417776522789', '101511141417776522789'); return false;">Personen_ohne_Beschae_101511141417776522789.html</a>
+			</td>
+		</tr>
+		<tr>
+			<td nowrap style="hint">				<a href="Publikationen_19216810191413454974565.html#nid19216810191413454989884_19216810191413454974565" onClick="loadFile('Publikationen_19216810191413454974565.html#nid19216810191413454989884_19216810191413454974565', '19216810191413454974565'); return false;">Publikationen_19216810191413454974565.html</a>
+			</td>
+		</tr>
+	</table>
+</div>
+<div id="19216810191413454989884text" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table width="250" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="250">
+			<td width="250" style="hint"><p>
+				Die Zuordnung zu einem Fach oder zu mehreren Fächern erfolgt für eine Organisationseinheit. Alle zu ihr gehörenden Objekte ‚erben‘ die Fachzuordnung der Organisationseinheit. Grundlage für die Fachzuordnung sind die Fächersystematiken des Statistisch...
+			</p></td>
+		</tr>
+	</table>
+</div>
+<div id="19216810191413454989884tags" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">
+				WR-empfohlenFuerKern<br/>
+				Abstimmung-weitereNachProjektlaufzeit<br/>
+				Ums+1<br/>
+				Eig+2<br/>
+				Differenz-UniAUF<br/>
+				Empfohlen<br/>
+				StatHamSchleHol
+			</td>
+		</tr>
+	</table>
+</div>
+<div id="19216810191413454992817imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon or label to view this node's details
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454992817_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:570px; top:1808px; width:248px; height:55px; border: 2px solid yellow"></div>
+<div id="19216810191413454992817tags" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">
+				Eig0<br/>
+				WR-empfohlenFuerKern<br/>
+				Abstimmung-Konsens<br/>
+				Nicht empfohlen<br/>
+				Ums+2
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454992208_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1013px; top:3930px; width:268px; height:71px; border: 2px solid yellow"></div>
+
+<div id="nid19216810191413454993519_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:996px; top:6064px; width:301px; height:103px; border: 2px solid yellow"></div>
+<div id="101511691432796402620imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon or label to view this node's details
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid101511691432796402620_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:230px; top:978px; width:142px; height:56px; border: 2px solid yellow"></div>
+<div id="101511691432796402620views" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">				<a href="Beschaeftigte_19216810191413454974643.html#nid101511691432796402620_19216810191413454974643" onClick="loadFile('Beschaeftigte_19216810191413454974643.html#nid101511691432796402620_19216810191413454974643', '19216810191413454974643'); return false;">Beschaeftigte_19216810191413454974643.html</a>
+			</td>
+		</tr>
+		<tr>
+			<td nowrap style="hint">				<a href="Drittmittel_und_Fina_19216810191413454974487.html#nid101511691432796402620_19216810191413454974487" onClick="loadFile('Drittmittel_und_Fina_19216810191413454974487.html#nid101511691432796402620_19216810191413454974487', '19216810191413454974487'); return false;">Drittmittel_und_Fina_19216810191413454974487.html</a>
+			</td>
+		</tr>
+		<tr>
+			<td nowrap style="hint">				Patente_und_Ausgruend_19216810191413454974674.html			</td>
+		</tr>
+	</table>
+</div>
+<div id="101511691432796402620tags" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">
+				Empfohlen
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454993331_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1010px; top:6626px; width:271px; height:55px; border: 2px solid yellow"></div>
+
+<div id="nid19216810191413454993097_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1068px; top:360px; width:153px; height:55px; border: 2px solid yellow"></div>
+
+<div id="nid19216810191413454993456_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:993px; top:2998px; width:312px; height:103px; border: 2px solid yellow"></div>
+<div id="19216810191413454992754imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon or label to view this node's details
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454992754_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:846px; top:2722px; width:83px; height:55px; border: 2px solid yellow"></div>
+<div id="19216810191413454992754tags" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">
+				Eig0<br/>
+				WR-empfohlenFuerKern<br/>
+				Ums-2<br/>
+				Abstimmung-Konsens<br/>
+				Nicht empfohlen
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454993207_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1026px; top:5092px; width:246px; height:55px; border: 2px solid yellow"></div>
+<div id="101511691432809509180imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon or label to view this node's details
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid101511691432809509180_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:416px; top:5228px; width:205px; height:71px; border: 2px solid yellow"></div>
+<div id="101511691432809509180text" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table width="250" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="250">
+			<td width="250" style="hint"><p>
+				Anzahl prioritätsbegründender Patentanmeldungen im Kalenderjahr.
+			</p></td>
+		</tr>
+	</table>
+</div>
+<div id="101511691432809509180tags" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">
+				Empfohlen<br/>
+				AbnahmeBeirat
+			</td>
+		</tr>
+	</table>
+</div>
+<div id="19216810191413454993394imagehint" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+	<table width="200" border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr width="200">
+			<td width="200" style="hint"><p>
+				Click icon or label to view this node's details
+			</p></td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454993394_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:884px; top:4704px; width:86px; height:55px; border: 2px solid yellow"></div>
+<div id="19216810191413454993394tags" style="position: absolute; z-index: 20; visibility: hidden; left: 0; top: 0;">
+	<table border=1 cellpadding=1 cellspacing=0 bgcolor="#FFFED9">
+		<tr>
+			<td nowrap style="hint">
+				WR-empfohlenFuerKern<br/>
+				Abstimmung-Konsens<br/>
+				Ums+3<br/>
+				Nicht empfohlen<br/>
+				Eig+2
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div id="nid19216810191413454992692_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1074px; top:4750px; width:132px; height:55px; border: 2px solid yellow"></div>
+
+<div id="nid101511691441797802790_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1008px; top:20px; width:282px; height:87px; border: 2px solid yellow"></div>
+
+<div id="nid101511691441798378956_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1006px; top:6780px; width:282px; height:87px; border: 2px solid yellow"></div>
+
+<div id="nid101511691442223811815_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:1031px; top:5428px; width:226px; height:71px; border: 2px solid yellow"></div>
+
+<div id="nid101511691442223901238_19216810191413454974674highlight" style="position:absolute; z-index:15; visibility:hidden; left:990px; top:5808px; width:318px; height:103px; border: 2px solid yellow"></div>
+</body></html>

@@ -1,0 +1,102 @@
+/* 
+    Document   : graph_coltree_layout
+    Created on : 02.10.2014, 10:19:15
+    Author     : Mathias
+    Description:
+        Stylesheet for the Collapsive Tree visualization mode
+*/
+
+
+
+.ctExpandlabel{
+    font-family: Lucida Sans Unicode, Arial Unicode MS, sans-serif;
+}
+
+.node_coltree {
+  cursor: pointer;
+}
+
+
+
+
+.coltext_argument {
+font: 10px sans-serif;
+fill:#000;
+  cursor: pointer;
+}
+.colrect_argumentpro {
+    background-color: #F8F8F8; /*used for the legend Cell*/
+    fill:#F8F8F8; /*used for the svg rect*/ 
+  stroke-width:0.5;
+  stroke:#666;
+  cursor: pointer;
+
+  
+}
+ 
+
+.colrect_argumentcon {
+    background-color: #F8F8F8; /*used for the legend Cell*/
+    fill:#F8F8F8; /*used for the svg rect*/
+  stroke-width:0.5;
+  stroke:#666;
+  cursor: pointer;
+
+  
+}
+
+
+
+.coltext {
+  font: 15px sans-serif;
+    cursor: pointer;
+}
+
+.link_coltree {
+  fill: none;
+  stroke: #AEAEAE; /*This is set to grey/black with computed transparency to represent selection!*/
+  stroke-width: 1px;
+}
+
+
+
+.nichtEmpfohlen_Fill  {
+background-color: #FF9999;
+fill:#FF9999;
+}
+.erweiterungsteil_Fill  {
+background-color: #FFCF9F;
+fill:#FFCF9F;
+}
+.empfohlen_Fill   {
+background-color: #CCFF66;
+fill:#CCFF66;
+}
+.empfohlenSchale_Fill  {
+background-color: #CC99FF;
+fill:#CC99FF;
+}
+/*.obligatorisch_Fill  {
+background-color: #9999FF;
+}
+.pubSchale2_Fill  {
+background-color: #CBFFFF;
+}*/
+
+
+.nichtEmpfohlen {
+color: #CC0000;
+text-decoration: line-through;
+}
+.erweiterungsteil {
+color:#996600;
+font-style:italic;
+}
+.empfohlen{
+color: #006600;
+}
+.empfohlenSchale {
+color: #990099;
+}
+
+

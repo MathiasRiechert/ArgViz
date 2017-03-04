@@ -1,0 +1,854 @@
+{
+  "zeitraum": [
+    {
+      "name": "2012",
+      "expertengruppe": [
+        {
+          "name": "Arbeitsgruppe \"Kerndatensatz Forschung\" des Wissenschaftsrates",
+          "expertise_intern": [
+            {
+              "name": "Vertreter Hochschulen",
+              "mitglieder": []
+            },
+            {
+              "name": "Vertreter Außeruniversitäre Forschungseinrichtungen",
+              "mitglieder": []
+            },
+            {
+              "name": "Vertreter Bundesministerium für Wissenschaft und Forschung",
+              "mitglieder": []
+            },
+            {
+              "name": "Vertreter Wissenschaftsrat",
+              "mitglieder": []
+            },
+            {
+              "name": "Vertreter Wissenschaftsforschung",
+              "mitglieder": []
+            }
+          ],
+          "expertise_extern": [],
+          "arbeitspakete": [
+            {
+              "name": "Empfehlungen bezüglich der Inhalte, Erweiterungsteile  und eines Zeitplanes",
+              "ergebnisse": [
+                {
+                  "name": "Empfehlungen zur Standardisierung und Implementierung eines Kerndatensatz Forschung (Drs. 2744-12)",
+                  "link": "http://www.wissenschaftsrat.de/download/archiv/2855-13.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2013-2014",
+      "expertengruppe": [
+        {
+          "name": "Beirat",
+          "expertise_intern": [
+            {
+              "name": "Vertreter Hochschulleitung",
+              "mitglieder": []
+            },
+            {
+              "name": "Vertreter Außeruniversitäre Forschungseinrichtungen",
+              "mitglieder": []
+            },
+            {
+              "name": "Vertreter Forschungs-IT und FIS",
+              "mitglieder": []
+            },
+            {
+              "name": "Vertreter Hochschulen",
+              "mitglieder": []
+            },
+            {
+              "name": "Vertreter Forschungsfördergesellschaften",
+              "mitglieder": []
+            },
+            {
+              "name": "Vertreter Landesministerien",
+              "mitglieder": []
+            },
+            {
+              "name": "Vertreter Datenschutz und Informationsrecht",
+              "mitglieder": []
+            },
+            {
+              "name": "Vertreter Bundesministerien",
+              "mitglieder": []
+            }
+          ],
+          "expertise_extern": [],
+          "arbeitspakete": [
+            {
+              "name": "Abnahme des Spezifikations- dokumentes mit Änderungshinweisen",
+              "ergebnisse": []
+            }
+          ]
+        },
+        {
+          "name": "Projektgruppe \"Definitionen und Datenformate\"",
+          "expertise_intern": [
+            {
+              "name": "Expertise Management von Forschungsinfromationen",
+              "mitglieder": [
+                {
+                  "name": "Dr. Sebastian Herwig",
+                  "institution": "Westfälische Wilhelms-Universität Münster"
+                }
+              ]
+            },
+            {
+              "name": "Expertise Forschungseinrichtungsleitung",
+              "mitglieder": [
+                {
+                  "name": "Prof. Dr-Ing. Hans Siegfried Stiehl",
+                  "institution": "Universität Hamburg"
+                }
+              ]
+            },
+            {
+              "name": "Expertise Hochschulqualitätsmanagement",
+              "mitglieder": [
+                {
+                  "name": "Dr. Jan Andrä",
+                  "institution": "Technische Universität Dresden"
+                }
+              ]
+            },
+            {
+              "name": "Expertise Hochschulfinanzen",
+              "mitglieder": [
+                {
+                  "name": "Dr. Matthias Kreysing",
+                  "institution": "Universität Hildesheim"
+                }
+              ]
+            },
+            {
+              "name": "Expertise Standardisierung von Forschungsinformationen (CERIF)",
+              "mitglieder": [
+                {
+                  "name": "Dr. Brigitte Jörg",
+                  "institution": "CERIF, CASRAI"
+                }
+              ]
+            },
+            {
+              "name": "Expertise Hochschul- und Wissenschaftsforschung",
+              "mitglieder": [
+                {
+                  "name": "Dr. Karsten Stephan",
+                  "institution": "Deutsches Zentrum für Hochschul- und Wissenschaftsforschung (DZHW)"
+                }
+              ]
+            },
+            {
+              "name": "Expertise Hochschulentwicklung",
+              "mitglieder": [
+                {
+                  "name": "Prof. Dr. Frank Ziegele",
+                  "institution": "Hochschule Osnabrück, Centrum für Hochschulentwicklung (CHE)"
+                }
+              ]
+            }
+          ],
+          "expertise_extern": [
+            {
+              "name": "4 Piloteinrichtungen",
+              "mitglieder": []
+            },
+            {
+              "name": "3 Softwarehersteller",
+              "mitglieder": []
+            },
+            {
+              "name": "2 Organisationen mit Forschungsinformationsbedarf",
+              "mitglieder": []
+            },
+            {
+              "name": "4 Zentralen von außeruniversitären Forschungseinrichtungen",
+              "mitglieder": []
+            },
+            {
+              "name": "Vertreter der VIVO - Standardisierungsinitiative",
+              "mitglieder": []
+            }
+          ],
+          "arbeitspakete": [
+            {
+              "name": "1) Recherche existierender Definitionen (Ländergesetze, Frascati Manual, Destatis, CERIF, CASRAI)",
+              "ergebnisse": [
+                {
+                  "name": "Übersicht bestehender Definitionen zu den Elementen der Empfehlung- en des Wissenschaftsrates",
+                  "link": ""
+                }
+              ]
+            },
+            {
+              "name": "2) Initiale Diskussion und Erarbeitung initialer Definitionen in den Bereichen: Beschäftigte, Nachwuchsförderung, Drittmittel, Patente, Forschungspreise und Auszeichnungen",
+              "ergebnisse": [
+                {
+                  "name": "Definitionen, Alternativen und Argumente als Argumentationsnetz",
+                  "link": ""
+                },
+                {
+                  "name": "Definitionskatalog in Tabellenform",
+                  "link": "http://www.kerndatensatz-forschung.de/version1/Spezifikationstabelle_KDSF_v1_komplett.html"
+                }
+              ]
+            },
+            {
+              "name": "3) Rückmeldephase: Übersendung der Definitionstabellen an Kooperationseinrichtungen",
+              "ergebnisse": [
+                {
+                  "name": "Kommentierter Definitionskatalog",
+                  "link": ""
+                },
+                {
+                  "name": "Prozessbeschreibung in Abschlussbericht Kapitel 2.4.1",
+                  "link": ""
+                }
+              ]
+            },
+            {
+              "name": "4) Erneute Diskussion und Aktualisierung der Definitionsinhalte",
+              "ergebnisse": [
+                {
+                  "name": "Definitionen, Alternativen und Argumente als Argumentationsnetz",
+                  "link": ""
+                },
+                {
+                  "name": "Definitionen und Argumente als hierarchische XML",
+                  "link": ""
+                },
+                {
+                  "name": "Definitionen und Argumente als KDSF-Tabelle (interaktive HTML)",
+                  "link": "http://www.kerndatensatz-forschung.de/version1/Spezifikationstabelle_KDSF_v1_komplett.html"
+                },
+                {
+                  "name": "Spezifikation (Kapitel 3) im Abschlussbericht",
+                  "link": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Projektgruppe \"Technik und Schnittstellen\"",
+          "expertise_intern": [
+            {
+              "name": "Modellierung und Entwurf von Informationssystemen",
+              "mitglieder": [
+                {
+                  "name": "Prof. Dr. Matthias Jarke",
+                  "institution": "Fraunhofer FIT / RWTH Aachen"
+                }
+              ]
+            },
+            {
+              "name": "Verwaltung von Publikationsdaten und Open-Access-Systemen",
+              "mitglieder": [
+                {
+                  "name": "Prof. Dr. Gerd Stumme",
+                  "institution": "Universität Kassel"
+                },
+                {
+                  "name": "Regine Tobias",
+                  "institution": "Karlsruher Institut für Technologie"
+                },
+                {
+                  "name": "Najko Jahn",
+                  "institution": "Universität Bielefeld"
+                }
+              ]
+            },
+            {
+              "name": "Betrieb von Forschungsinformations- systemen an Universitäten",
+              "mitglieder": [
+                {
+                  "name": "Astrid Lubinski",
+                  "institution": "Universität Rostock"
+                },
+                {
+                  "name": "Dr. Annette Lewerentz",
+                  "institution": "Freie Universität Berlin"
+                },
+                {
+                  "name": "Dr. Birgit Welke",
+                  "institution": "Charité - Universitätsmedizin Berlin"
+                }
+              ]
+            },
+            {
+              "name": "Betrieb von Forschungsinformations- systemen an außeruniversitären Forschungseinrichtungen",
+              "mitglieder": [
+                {
+                  "name": "Jan Steinberg",
+                  "institution": "Leibniz-Institut für Sozialwissenschaften (GESIS) "
+                }
+              ]
+            }
+          ],
+          "expertise_extern": [
+            {
+              "name": "3 Softwarehersteller",
+              "mitglieder": []
+            }
+          ],
+          "arbeitspakete": [
+            {
+              "name": "1) Recherche der verfügbaren Datenquellen und Datenformate",
+              "ergebnisse": [
+                {
+                  "name": "Liste der verfügbaren Datenquellen",
+                  "link": ""
+                }
+              ]
+            },
+            {
+              "name": "2) Konzeptuelles Datenmodell",
+              "ergebnisse": [
+                {
+                  "name": "Konzeptuelles Datenmodell des Kerndatensatzes in Form einer OWL-Ontologie",
+                  "link": "http://www.kerndatensatz-forschung.de/version1/technisches_datenmodell/owl.html"
+                },
+                {
+                  "name": "Online-Dokumentationsplattform des konzeptuellen Datenmodells",
+                  "link": "http://www.kerndatensatz-forschung.de/version1/technisches_datenmodell/"
+                },
+                {
+                  "name": "Abbildung des konzeptuellen Datenmodells auf CERIF",
+                  "link": "http://www.kerndatensatz-forschung.de/version1/technisches_datenmodell/index-xml.html"
+                }
+              ]
+            },
+            {
+              "name": "3) Machbarkeitsanalyse",
+              "ergebnisse": [
+                {
+                  "name": "Machbarkeitsanalyse zum Kerndatensatz Forschung (separates Dokument)",
+                  "link": ""
+                }
+              ]
+            },
+            {
+              "name": "4) Definition von Schnittstellen",
+              "ergebnisse": [
+                {
+                  "name": "XML-Schema für den Datenaustausch im Kerndatensatz-Format",
+                  "link": "http://www.kerndatensatz-forschung.de/version1/technisches_datenmodell/index-xml.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Projektgruppe \"Publikationen\"",
+          "expertise_intern": [
+            {
+              "name": "Vertreter Bibliometrieforschung",
+              "mitglieder": [
+                {
+                  "name": "Prof. Dr. Wolfgang Glänzel",
+                  "institution": "KU Leuven"
+                },
+                {
+                  "name": "Dr. Matthias Winterhager",
+                  "institution": "Universität Bielefeld"
+                }
+              ]
+            },
+            {
+              "name": "Vertreter ORCID",
+              "mitglieder": [
+                {
+                  "name": "Dr. Martin Fenner",
+                  "institution": "Public Library of Science (PLoS), ORCID"
+                }
+              ]
+            },
+            {
+              "name": "Vertreter Hochschul- und Wissenschaftsforschung",
+              "mitglieder": [
+                {
+                  "name": "Dr. Sybille Hinze",
+                  "institution": "Institut für Forschungsinformation und Qualitätssicherung (iFQ)"
+                },
+                {
+                  "name": "Prof. Dr. Peter van den Besselaar",
+                  "institution": "Vrije Universiteit Amsterdam"
+                }
+              ]
+            },
+            {
+              "name": "Vertreter außeruniversitäre Forschungseinrichtungen",
+              "mitglieder": [
+                {
+                  "name": "Margit Palzenberger",
+                  "institution": "Max-Planck-Gesellschaft"
+                }
+              ]
+            },
+            {
+              "name": "Vertreter Forschungsbibliotheken",
+              "mitglieder": [
+                {
+                  "name": "Dr. Bernhard Mittermaier",
+                  "institution": "Zentralbibliothek des Forschungszentrums Jülich"
+                },
+                {
+                  "name": "Frank Scholze",
+                  "institution": "Bibliothek des Karlsruher Instituts für Technologie"
+                }
+              ]
+            }
+          ],
+          "expertise_extern": [],
+          "arbeitspakete": [
+            {
+              "name": "1) Standardisierung Publikationsformate: Empfehlungen zu Publikations-und Dokumenttypen, die aufgenommen werden sollen",
+              "ergebnisse": [
+                {
+                  "name": "Definition des Begriffs Publikation in Spezifikation ",
+                  "link": "http://www.kerndatensatz-forschung.de/version1/Spezifikationstabelle_KDSF_v1.html#Pu4a"
+                },
+                {
+                  "name": "Erarbeitung einer Liste von empfohlenen Publikationstypen in zwei Relevanzstufen.",
+                  "link": "http://www.kerndatensatz-forschung.de/version1/Spezifikationstabelle_KDSF_v1.html#Pu6"
+                },
+                {
+                  "name": "Erarbeitung einer Liste von empfohlenen Dokumenttypen in zwei Relevanzstufen.",
+                  "link": "http://www.kerndatensatz-forschung.de/version1/Spezifikationstabelle_KDSF_v1.html#Pu101"
+                }
+              ]
+            },
+            {
+              "name": "2) Import-Schnittstellen",
+              "ergebnisse": [
+                {
+                  "name": "Diskussion verbreiteter Metadatenstandards und Entwicklung eines Modells auf der Basis von Dublin Core (Kapitel 7.1 im Ergebnisbericht)",
+                  "link": "http://www.kerndatensatz-forschung.de/version1/Ergebnisbericht_Projekt_KDSF.pdf"
+                }
+              ]
+            },
+            {
+              "name": "3) Datenlieferung,-eingabe und -validierung",
+              "ergebnisse": [
+                {
+                  "name": "Kapitel 6.2.4 und 5.2.2 im Ergebnisbericht",
+                  "link": "http://www.kerndatensatz-forschung.de/version1/Ergebnisbericht_Projekt_KDSF.pdf"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Projektgruppe \"Fächerklassifikationen\"",
+          "expertise_intern": [
+            {
+              "name": "Terminologie-Expertise, Information Retrieval",
+              "mitglieder": [
+                {
+                  "name": "Prof. Dr. Vivien Petras",
+                  "institution": "Humboldt-Universität zu Berlin"
+                },
+                {
+                  "name": "Dr. Philipp Mayr",
+                  "institution": "Leibniz-Institut für Sozialwissenschaften (GESIS)"
+                }
+              ]
+            },
+            {
+              "name": "Expertise Klassifikationssysteme Bibliotheken",
+              "mitglieder": [
+                {
+                  "name": "Dr. Heidrun Alex",
+                  "institution": "Deutsche Nationalbibliothek"
+                }
+              ]
+            },
+            {
+              "name": "Wissenschaftssoziologische Expertise",
+              "mitglieder": [
+                {
+                  "name": "PD Dr. Andreas Franzmann",
+                  "institution": "Eberhard Karls Universität Tübingen"
+                },
+                {
+                  "name": "Prof. Dr. Ulrich Schmoch",
+                  "institution": "Fraunhofer ISI / Deutsche Hochschule für Verwaltungswissenschaften Speyer"
+                }
+              ]
+            },
+            {
+              "name": "Expertise Amtliche Statistik",
+              "mitglieder": [
+                {
+                  "name": "Pia Brugger",
+                  "institution": "Statistisches Bundesamt"
+                }
+              ]
+            },
+            {
+              "name": "Expertise Hochschulverwaltung",
+              "mitglieder": [
+                {
+                  "name": "Andrea Syring",
+                  "institution": "Freie Universität Berlin"
+                }
+              ]
+            },
+            {
+              "name": "Leitungsexpertise",
+              "mitglieder": [
+                {
+                  "name": "Prof. Dr. Reinhard Pekrun",
+                  "institution": "Ludwig-Maximilians-Universität München (LMU)"
+                }
+              ]
+            }
+          ],
+          "expertise_extern": [
+            {
+              "name": "Nutzer der Fächersystematiken",
+              "mitglieder": [
+                {
+                  "name": "Technische Universität Dresden",
+                  "institution": ""
+                },
+                {
+                  "name": "Westfälische Wilhelms-Universität Münster",
+                  "institution": ""
+                },
+                {
+                  "name": "Technische Hochschule Mittelhessen",
+                  "institution": ""
+                },
+                {
+                  "name": "Helmholtz-Zentrum für Umweltforschung - UFZ",
+                  "institution": ""
+                },
+                {
+                  "name": "Leibniz-Gemeinschaft (WGL)",
+                  "institution": ""
+                },
+                {
+                  "name": "Fraunhofer Gesellschaft zur Förderung der angewandten Forschung (FhG)",
+                  "institution": ""
+                },
+                {
+                  "name": "Max-Planck-Gesellschaft (MPG)",
+                  "institution": ""
+                },
+                {
+                  "name": "Helmholtz-Gemeinschaft Deutscher Forschungszentren (HGF)",
+                  "institution": ""
+                },
+                {
+                  "name": "Kommission für Statistik der Kultusministerkonferenz",
+                  "institution": ""
+                },
+                {
+                  "name": "Stifterverband",
+                  "institution": ""
+                }
+              ]
+            },
+            {
+              "name": "Anbieter der Fächersystematiken",
+              "mitglieder": [
+                {
+                  "name": "Deutsche Forschungsgemeinschaft",
+                  "institution": ""
+                },
+                {
+                  "name": "Statistisches Landesamt Hessen",
+                  "institution": ""
+                },
+                {
+                  "name": "Statistisches Landesamt Bayern",
+                  "institution": ""
+                },
+                {
+                  "name": "Bundesministerium für Bildung und Forschung",
+                  "institution": ""
+                },
+                {
+                  "name": "Centrum für Hochschulentwicklung",
+                  "institution": ""
+                },
+                {
+                  "name": "European Research Council",
+                  "institution": ""
+                },
+                {
+                  "name": "Deutsches Zentrum für Hochschul-und Wissenschaftsforschung",
+                  "institution": ""
+                }
+              ]
+            },
+            {
+              "name": "Fachgesellschaften",
+              "mitglieder": [
+                {
+                  "name": "Deutsche Gesellschaft für Erziehungswissenschaft",
+                  "institution": ""
+                },
+                {
+                  "name": "Deutscher Germanistenverband",
+                  "institution": ""
+                },
+                {
+                  "name": "Verband der Historikerinnen und Historiker Deutschlands",
+                  "institution": ""
+                },
+                {
+                  "name": "Gesellschaft für Musikforschung",
+                  "institution": ""
+                },
+                {
+                  "name": "Deutsche Gesellschaft für Psychologie e.V.",
+                  "institution": ""
+                },
+                {
+                  "name": "Gesellschaft für Theaterwissenschaft e.V.",
+                  "institution": ""
+                },
+                {
+                  "name": "Deutscher Kulturrat",
+                  "institution": ""
+                },
+                {
+                  "name": "Schmalenbach-Gesellschaft für Betriebswirtschaft",
+                  "institution": ""
+                },
+                {
+                  "name": "Deutsche Gesellschaft für Finanzwirtschaft",
+                  "institution": ""
+                },
+                {
+                  "name": "Deutsche Gesellschaft für Soziologie",
+                  "institution": ""
+                },
+                {
+                  "name": "Gesellschaft für Empirische Bildungsforschung",
+                  "institution": ""
+                },
+                {
+                  "name": "Deutscher Juristen-Fakultätentag",
+                  "institution": ""
+                },
+                {
+                  "name": "Vereinigung der Deutschen Staatsrechtslehrer",
+                  "institution": ""
+                },
+                {
+                  "name": "Vereinigung der Deutschen Strafrechtslehrer",
+                  "institution": ""
+                },
+                {
+                  "name": "Vereinigung der Zivilrechtslehrer",
+                  "institution": ""
+                },
+                {
+                  "name": "Deutsche Mathematiker-Vereinigung",
+                  "institution": ""
+                },
+                {
+                  "name": "Gesellschaft für Angewandte Mathematik und Mechanik",
+                  "institution": ""
+                },
+                {
+                  "name": "Gesellschaft für Informatik",
+                  "institution": ""
+                },
+                {
+                  "name": "Deutsche Physikalische Gesellschaft",
+                  "institution": ""
+                },
+                {
+                  "name": "Gesellschaft Deutscher Chemiker",
+                  "institution": ""
+                },
+                {
+                  "name": "Deutsche Pharmazeutische Gesellschaft",
+                  "institution": ""
+                },
+                {
+                  "name": "Deutsche Arbeitsgemeinschaft",
+                  "institution": ""
+                },
+                {
+                  "name": "Statistik",
+                  "institution": ""
+                },
+                {
+                  "name": "Fakultätentag Elektrotechnik und Informationstechnik",
+                  "institution": ""
+                },
+                {
+                  "name": "Verein Deutscher Ingenieure",
+                  "institution": ""
+                },
+                {
+                  "name": "Deutsche Gesellschaft für Materialkunde e.V.",
+                  "institution": ""
+                },
+                {
+                  "name": "Studientag Materialwissenschaft und Werkstofftechnik",
+                  "institution": ""
+                },
+                {
+                  "name": "Fakultätentag Maschinenbau und Verfahrenstechnik",
+                  "institution": ""
+                },
+                {
+                  "name": "Wissenschaftliche Gesellschaft für Produktionstechnik",
+                  "institution": ""
+                },
+                {
+                  "name": "Bundesvereinigung Materialwissenschaft und Werkstofftechnik",
+                  "institution": ""
+                },
+                {
+                  "name": "Deutsche Akademie der Technikwissenschaften (acatech)",
+                  "institution": ""
+                },
+                {
+                  "name": "Wissenschaftlichen Arbeitskreises der UniversitätsprofessorInnen der Werkstofftechnik e.V. (WAW)",
+                  "institution": ""
+                }
+              ]
+            },
+            {
+              "name": "Weitere Akteure",
+              "mitglieder": [
+                {
+                  "name": "Allgemeiner Fakultätentag",
+                  "institution": ""
+                },
+                {
+                  "name": "Medizinischer Fakultätentag",
+                  "institution": ""
+                },
+                {
+                  "name": "Deutsche Veterinärmedizinische Gesellschaft e.V.",
+                  "institution": ""
+                },
+                {
+                  "name": "Herr PD Dr. Jochen Gläser (Wissenschaftsforscher)",
+                  "institution": ""
+                }
+              ]
+            }
+          ],
+          "arbeitspakete": [
+            {
+              "name": "1) Konsultationen: Identifizierung des Anpassungsbedarfs der Fächersystematiken, fachliche Angemessenheit der jetzigen Systematik sowie von Anforderungen an die Erfassung von interdisziplinärer Forschung",
+              "ergebnisse": [
+                {
+                  "name": "Abschlussbericht Kapitel 2.4.3 – 1.",
+                  "link": ""
+                },
+                {
+                  "name": "Liste der einbezogenen Akteure\n(Empfehlungen zur Revision 2014, S.39f.)",
+                  "link": ""
+                }
+              ]
+            },
+            {
+              "name": "2) Erarbeitung von Empfehlungen zum laufenden Revisionsprozess der Destatis Fächersystematiken",
+              "ergebnisse": [
+                {
+                  "name": "Empfehlungen zur Revision der Fächersystematiken des Statistischen Bundesamtes (2014)",
+                  "link": "http://www.kerndatensatz-forschung.de/version1/PGK_Empfehlungen_zu_kuenftigen_Revisionen.pdf"
+                },
+                {
+                  "name": "Spezifikation Kapitel 2.2; 3.2.3",
+                  "link": "http://www.kerndatensatz-forschung.de/version1/Spezifikation_KDSF_v1.pdf"
+                },
+                {
+                  "name": "Arbeitsweise der Projektgruppe (Abschlussbericht Kapitel 2.4.3 – 1.)",
+                  "link": ""
+                },
+                {
+                  "name": "Angepasste Systematik Fächer- gruppen, Studienbereiche und Studienfächer",
+                  "link": "https://www.destatis.de/DE/Methoden/Klassifikationen/BildungKultur/StudentenPruefungsstatistik.pdf?__blob=publicationFile"
+                },
+                {
+                  "name": "Angepasste Systematik Fächer- gruppen, Lehr- und Forschungs- bereiche und Fachgebiete",
+                  "link": "https://www.destatis.de/DE/Methoden/Klassifikationen/BildungKultur/Content75/SystematikenHochschulen.html"
+                },
+                {
+                  "name": "Angepasste Systematik Wissenschaftszweige",
+                  "link": "https://www.destatis.de/DE/Methoden/Klassifikationen/BildungKultur/StudentenPruefungsstatistik.pdf?__blob=publicationFile"
+                }
+              ]
+            },
+            {
+              "name": "3) Empfehlungen zu künftigen regelmäßigen\nRevisionsprozess der Fächersystematiken",
+              "ergebnisse": [
+                {
+                  "name": "Empfehlungen zu künftigen regelmäßigen Revisionen der Fächersystematiken des Statistischen Bundesamtes",
+                  "link": "http://www.kerndatensatz-forschung.de/version1/PGK_Empfehlungen_zu_kuenftigen_Revisionen.pdf"
+                }
+              ]
+            },
+            {
+              "name": "4) Fächersystematiken und Berichtswesen",
+              "ergebnisse": [
+                {
+                  "name": "Klärung inwiefern neben Fächer- systematiken weitere Instrumente zur Beschreibung von Forschung nötig sind (vgl. Interdisziplinarität im Forschungsberichtswesen)",
+                  "link": ""
+                }
+              ]
+            },
+            {
+              "name": "5) Erfassung und interdisziplinäre Verortung",
+              "ergebnisse": [
+                {
+                  "name": "Empfehlungen zur Abbildung",
+                  "link": ""
+                },
+                {
+                  "name": "Vorschlag zur Mehrfachzuordnung anhand der Destatis-Systematiken",
+                  "link": ""
+                },
+                {
+                  "name": "Verfahrensvorschlag für die Erstellung einer Liste von Forschungsfeldern als Synthese bestehender Listen",
+                  "link": ""
+                }
+              ]
+            },
+            {
+              "name": "6) Konkordanz mit neuer Fächersystematik",
+              "ergebnisse": [
+                {
+                  "name": "Entfiel, da keine eigene Systematik entwickelt wurde. Die Konkordanz zu internationalen Systematiken soll nach Möglichkeit vom Statistischen Bundesamt vorgelegt werden, das seine Daten für diese Berichtszwecke aufarbeitet.",
+                  "link": ""
+                }
+              ]
+            },
+            {
+              "name": "7) Zusammenfassung und Revision",
+              "ergebnisse": [
+                {
+                  "name": "Einpflegen der Ergebnisse aus den Empfehlungspapieren in die Spezifikation",
+                  "link": ""
+                },
+                {
+                  "name": "Abschlussbericht Kapitel 2.4.3 – 1.",
+                  "link": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

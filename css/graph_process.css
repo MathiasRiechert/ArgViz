@@ -1,0 +1,80 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 09.11.2015, 15:18:38
+    Author     : Mathias
+*/
+
+
+
+.zeitraumLine {
+    fill:none; 
+    stroke:#222222; 
+    stroke-width:0.15;
+}
+
+.BoxExpertise{
+    
+        fill:white; 
+    stroke:#222222; 
+    stroke-width:0.15;
+}
+
+.zeitraumText {
+    text-anchor: middle;
+}
+
+.header_internal_expertise {
+     fill:#47476b;
+    stroke:#333333; 
+    stroke-width:0.1;
+ 
+}
+
+.BoxHeader {
+    fill:#555555;
+    stroke:#333333; 
+    stroke-width:0.1;
+     cursor: pointer;
+}
+
+
+
+.BoxHeaderArbeitspaket {
+    fill:#DDDDDD;
+    stroke:#DDDDDD; 
+    stroke-width:0.1;
+}
+
+.ExpertiseHeaderText{
+     font: 10px sans-serif;
+    fill:#FFFFFF;
+    text-anchor: middle;
+    
+}
+.ProcHeaderText{
+    font: 10px sans-serif;
+    fill:#FFFFFF;
+    text-anchor: middle;
+     cursor: pointer;
+}
+.ProcHeaderTextArbeitspaket{
+    font: 10px sans-serif;
+    fill:#000000;
+    text-anchor: left;
+}
+
+.procTextExpertise{
+    font: 10px sans-serif;
+    fill:#000000;
+    text-anchor: left;
+}
+
+.procLabelText {
+       font: 10px sans-serif;
+    fill:#000000;
+    text-anchor: left; 
+}
